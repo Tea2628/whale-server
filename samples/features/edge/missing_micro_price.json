@@ -1,1 +1,8 @@
-{"ts":1700000100000,"symbol":"ETHUSDT","mid_price":3500.1,"spread_bps":0.5,"liquidity_tag":"high"}
+{
+  "ts": 1761000000,
+  "symbol": "BTCUSDT",
+  "mid_price": 68000.0,
+  "micro_price": 68000.01,          // 补齐必填字段（极小差值模拟“微价”）
+  "liquidity": "normal",
+  "vol_1m": 12.34
+}

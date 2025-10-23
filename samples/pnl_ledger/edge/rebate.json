@@ -1,1 +1,9 @@
-{"ts":1761247006,"tenant_id":"t_demo","symbol":"ETHUSDT","realized_pnl":0.0,"fees":-0.1,"ref":"rebate_abc","meta":{"type":"maker_rebate"}}
+{
+  "ts": 1761000001,
+  "tenant_id": "t_demo",
+  "symbol": "BTCUSDT",
+  "ref": "rebate_01",
+  "kind": "rebate",
+  "amount": 0.1,                     // 返佣为正值，满足 minimum: 0
+  "currency": "USDT"
+}
