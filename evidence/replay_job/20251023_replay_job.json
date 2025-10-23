@@ -1,11 +1,18 @@
 {
-  "job_id": "rj_4a194477",
+  "job_id": "rj_092fba61",
   "dt": "20251023",
   "symbols": [
     "BTCUSDT"
   ],
   "source_manifest": "manifest/dt=20251023/manifest.json",
-  "created_ts": 1761242256120,
+  "created_ts": 1761243626579,
   "status": "done",
-  "finished_ts": 1761242344727
+  "days": 1,
+  "speedup": 50,
+  "seed": 123,
+  "deterministic": true,
+  "finished_ts": 1761243626580,
+  "out_files": [
+    "ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/18.jsonl"
+  ]
 }

@@ -28,5 +28,11 @@
     "conf_accept_before": 0.6,
     "conf_accept_after": 0.55,
     "changed": true
+  },
+  "whale_replay_jobs_running": 0,
+  "whale_replay_consistency_ok": true,
+  "whale_rollback_latency_ms": 0,
+  "whale_drift_alerts_total": {
+    "features": 1
   }
 }
