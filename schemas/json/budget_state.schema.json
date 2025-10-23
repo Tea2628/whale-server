@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"budget_state",
+  "type":"object",
+  "required":["ts","tenant_id","klass","budget_total","budget_used","cooldown_s"],
+  "properties":{
+    "ts":{"type":"integer","minimum":0},
+    "tenant_id":{"type":"string"},
+    "klass":{"type":"string","enum":["A","B","C"]},
+    "budget_total":{"type":"number","minimum":0},
+    "budget_used":{"type":"number","minimum":0},
+    "cooldown_s":{"type":"integer","minimum":0},
+    "notes":{"type":["string","null"]}
+  },
+  "additionalProperties":false
+}

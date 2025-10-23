@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"pnl_ledger",
+  "type":"object",
+  "required":["ts","tenant_id","symbol","realized_pnl","fees","ref"],
+  "properties":{
+    "ts":{"type":"integer","minimum":0},
+    "tenant_id":{"type":"string"},
+    "symbol":{"type":"string"},
+    "realized_pnl":{"type":"number"},
+    "fees":{"type":"number","minimum":0},
+    "ref":{"type":"string"},
+    "meta":{"type":"object","additionalProperties":true}
+  },
+  "additionalProperties":false
+}
