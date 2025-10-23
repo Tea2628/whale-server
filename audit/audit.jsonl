@@ -989,3 +989,5 @@
 {"ts": 1761246975, "event": "healing", "actor": "system", "ref": "2054d9adf66a6149", "decision": "full", "reasons": [], "slo_check": {"pass": true}}
 {"ts":1761247058,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
 {"ts": 1761260157, "event": "schema_registry_build", "actor": "system", "ref": "20251023_REGISTRY.jsonl", "meta": {"ref": "20251023_REGISTRY.jsonl", "schemas": 25, "coverage": 0.96}}
+{"ts": 1761260313, "event": "order_flow", "actor": "system", "ref": "938774b308a998a0", "meta": {"strategy_id": "sp_momo_v1", "status": "active", "klass": "A", "symbol": "BTCUSDT", "side": "buy", "confidence": 0.72, "order_request_id": "req_1761260313"}}
+{"ts": 1761260313, "event": "exec_router_stub", "actor": "system", "ref": "2fa2c52d3da1cab0", "meta": {"request_id": "req_1761260313", "signal_id": "sig_demo", "status": "accepted"}}
