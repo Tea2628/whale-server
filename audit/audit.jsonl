@@ -879,3 +879,112 @@
 {"event": "drift_alert", "ts": 1761243944981, "actor": "service", "ref": "20251023", "explain": ["features distribution shift"], "meta": {"prev": {"n": 62, "mean": 28407114374.301613, "stdev": 223677842186.63428}, "curr": {"n": 72, "mean": 48927174442.08889, "stdev": 291465467751.2548}, "r_mean": 0.7223563716260695, "r_std": 0.30305918951086497, "drift": true}}
 {"event": "gate", "ref": "sim_6674dc45", "ts": 1761244128577, "actor": "service", "explain": ["Gate-Wrapper abstain: conf<0.9"]}
 {"event": "gate", "ref": "sim_6674dc45", "ts": 1761244128637, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "ledger_sha_roll", "ts": 1761244438503, "actor": "service", "ref": "20251023", "explain": ["hour=18", "dirs=12"]}
+{"event": "manifest_make", "ts": 1761244438533, "actor": "service", "ref": "20251023", "explain": ["manifest built for dt=20251023 -> /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json", "files=12"]}
+{"event": "dataset_manifest_make", "ts": 1761244438556, "actor": "service", "ref": "20251023", "explain": ["from /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json -> /home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json", "files=12", "records=81"]}
+{"event": "dataset_manifest_validate", "ts": 1761244438654, "actor": "service", "ref": "20251023", "explain": ["valid", "/home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json"]}
+{"event": "replay_job_start", "ts": 1761244438720, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761244438721, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/18.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761244438752, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761244438753, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/18.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761244438784, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761244438785, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/18.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761244438815, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761244438816, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/18.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761244438847, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761244438848, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/18.jsonl"]}}
+{"event": "replay_consistency", "ts": 1761244438852, "actor": "service", "ref": "20251023", "meta": {"runs": 5, "hashes": ["3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd"], "ok": true}}
+{"event": "drift_alert", "ts": 1761244438887, "actor": "service", "ref": "20251023", "explain": ["features distribution shift"], "meta": {"prev": {"n": 62, "mean": 28407114374.301613, "stdev": 223677842186.63428}, "curr": {"n": 72, "mean": 48927174442.08889, "stdev": 291465467751.2548}, "r_mean": 0.7223563716260695, "r_std": 0.30305918951086497, "drift": true}}
+{"event": "experiment_phase", "ts": 1761244438924, "actor": "service", "ref": "exp_auto", "explain": ["experiment exp_auto -> rolled_back"], "meta": {"reason": "quality_gate"}}
+{"event": "template_apply", "ts": 1761244438924, "actor": "service", "ref": "auto", "explain": ["apply_template -> gate_policy.yaml (conf_accept=0.9)"]}
+{"event": "quality_gate_enforce", "ts": 1761244438924, "actor": "service", "ref": "20251023", "explain": ["rollback decision=rollback verdict=fail"], "meta": {"latency_ms": 0, "before": 0.6, "after": 0.9}}
+{"ts":1761245994,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"ts": 1761246197, "event": "healing", "actor": "system", "ref": "d463daed3a85348c", "decision": "noop", "reasons": [], "slo_check": {"pass": true}}
+{"event": "ledger_sha_roll", "ts": 1761246301284, "actor": "service", "ref": "20251023", "explain": ["hour=19", "dirs=12"]}
+{"event": "manifest_make", "ts": 1761246301314, "actor": "service", "ref": "20251023", "explain": ["manifest built for dt=20251023 -> /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json", "files=12"]}
+{"event": "dataset_manifest_make", "ts": 1761246301342, "actor": "service", "ref": "20251023", "explain": ["from /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json -> /home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json", "files=12", "records=81"]}
+{"event": "ledger_sha_roll", "ts": 1761246301353, "actor": "service", "ref": "20251023", "explain": ["hour=19", "dirs=12"]}
+{"event": "ledger_sha_roll", "ts": 1761246301355, "actor": "service", "ref": "20251023", "explain": ["hour=19", "dirs=12"]}
+{"event": "manifest_make", "ts": 1761246301380, "actor": "service", "ref": "20251023", "explain": ["manifest built for dt=20251023 -> /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json", "files=12"]}
+{"event": "manifest_make", "ts": 1761246301384, "actor": "service", "ref": "20251023", "explain": ["manifest built for dt=20251023 -> /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json", "files=12"]}
+{"event": "dataset_manifest_make", "ts": 1761246301403, "actor": "service", "ref": "20251023", "explain": ["from /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json -> /home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json", "files=12", "records=81"]}
+{"event": "dataset_manifest_make", "ts": 1761246301408, "actor": "service", "ref": "20251023", "explain": ["from /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json -> /home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json", "files=12", "records=81"]}
+{"event": "dataset_manifest_validate", "ts": 1761246301449, "actor": "service", "ref": "20251023", "explain": ["valid", "/home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json"]}
+{"ts": 1761246301, "event": "retention", "actor": "system", "ref": "", "decision": "done", "reasons": ["wrote=46", "deleted=0", "errors=0"], "slo_check": {"pass": true}}
+{"event": "dataset_manifest_validate", "ts": 1761246301508, "actor": "service", "ref": "20251023", "explain": ["valid", "/home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json"]}
+{"event": "dataset_manifest_validate", "ts": 1761246301516, "actor": "service", "ref": "20251023", "explain": ["valid", "/home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json"]}
+{"event": "replay_job_start", "ts": 1761246301525, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301527, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301561, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301562, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301586, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_start", "ts": 1761246301586, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301587, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_done", "ts": 1761246301587, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301596, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301597, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301621, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_start", "ts": 1761246301622, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301622, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_done", "ts": 1761246301623, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301632, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301633, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301657, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_start", "ts": 1761246301657, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301658, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_done", "ts": 1761246301658, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301669, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301670, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_consistency", "ts": 1761246301676, "actor": "service", "ref": "20251023", "meta": {"runs": 5, "hashes": ["3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd"], "ok": true}}
+{"event": "replay_job_start", "ts": 1761246301690, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301691, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301694, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301695, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301726, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301727, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246301730, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246301732, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_consistency", "ts": 1761246301732, "actor": "service", "ref": "20251023", "meta": {"runs": 5, "hashes": ["3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd"], "ok": true}}
+{"event": "replay_consistency", "ts": 1761246301737, "actor": "service", "ref": "20251023", "meta": {"runs": 5, "hashes": ["3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd"], "ok": true}}
+{"event": "experiment_phase", "ts": 1761246301751, "actor": "service", "ref": "exp_auto", "explain": ["experiment exp_auto -> rolled_back"], "meta": {"reason": "quality_gate"}}
+{"event": "template_apply", "ts": 1761246301751, "actor": "service", "ref": "auto", "explain": ["apply_template -> gate_policy.yaml (conf_accept=0.9)"]}
+{"event": "quality_gate_enforce", "ts": 1761246301752, "actor": "service", "ref": "20251023", "explain": ["rollback decision=rollback verdict=fail"], "meta": {"latency_ms": 0, "before": 0.9, "after": 0.9}}
+{"event": "experiment_phase", "ts": 1761246301801, "actor": "service", "ref": "exp_auto", "explain": ["experiment exp_auto -> rolled_back"], "meta": {"reason": "quality_gate"}}
+{"event": "template_apply", "ts": 1761246301801, "actor": "service", "ref": "auto", "explain": ["apply_template -> gate_policy.yaml (conf_accept=0.9)"]}
+{"event": "quality_gate_enforce", "ts": 1761246301801, "actor": "service", "ref": "20251023", "explain": ["rollback decision=rollback verdict=fail"], "meta": {"latency_ms": 0, "before": 0.9, "after": 0.9}}
+{"event": "experiment_phase", "ts": 1761246301805, "actor": "service", "ref": "exp_auto", "explain": ["experiment exp_auto -> rolled_back"], "meta": {"reason": "quality_gate"}}
+{"event": "template_apply", "ts": 1761246301805, "actor": "service", "ref": "auto", "explain": ["apply_template -> gate_policy.yaml (conf_accept=0.9)"]}
+{"event": "quality_gate_enforce", "ts": 1761246301805, "actor": "service", "ref": "20251023", "explain": ["rollback decision=rollback verdict=fail"], "meta": {"latency_ms": 0, "before": 0.9, "after": 0.9}}
+{"ts":1761246350,"event":"drill","actor":"ops","decision":"done","reasons":["policy_rollback"],"slo_check":{"pass":true}}
+{"ts": 1761246440, "event": "healing", "actor": "system", "ref": "d463daed3a85348c", "decision": "noop", "reasons": [], "slo_check": {"pass": true}}
+{"ts": 1761246493, "event": "healing", "actor": "system", "ref": "d463daed3a85348c", "decision": "noop", "reasons": [], "slo_check": {"pass": true}}
+{"ts": 1761246494, "event": "capacity", "actor": "system", "ref": "c41fa8c8fddbf3bc", "decision": "scale_down", "reasons": ["cpu=0.4", "backlog=0", "target=1"], "slo_check": {"pass": true}}
+{"ts":1761246558,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"event": "ledger_sha_roll", "ts": 1761246613792, "actor": "service", "ref": "20251023", "explain": ["hour=19", "dirs=13"]}
+{"event": "manifest_make", "ts": 1761246613817, "actor": "service", "ref": "20251023", "explain": ["manifest built for dt=20251023 -> /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json", "files=13"]}
+{"event": "dataset_manifest_make", "ts": 1761246613839, "actor": "service", "ref": "20251023", "explain": ["from /home/tm/repos/whale-server/manifest/dt=20251023/manifest.json -> /home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json", "files=13", "records=82"]}
+{"event": "dataset_manifest_validate", "ts": 1761246613933, "actor": "service", "ref": "20251023", "explain": ["valid", "/home/tm/repos/whale-server/evidence/dataset_manifest/20251023_dataset_manifest.json"]}
+{"event": "replay_job_start", "ts": 1761246613997, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246613998, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246614029, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246614030, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246614060, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246614061, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246614092, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246614093, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_job_start", "ts": 1761246614125, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"]}}
+{"event": "replay_job_done", "ts": 1761246614126, "actor": "service", "ref": "rj_092fba61", "meta": {"dt": ["20251023"], "symbols": ["BTCUSDT"], "out_files": ["ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/19.jsonl"]}}
+{"event": "replay_consistency", "ts": 1761246614131, "actor": "service", "ref": "20251023", "meta": {"runs": 5, "hashes": ["3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd", "3cffb7001e16f9a59c699743f338fdad7d16b8ddeccdb9ee4b9b2b6ab63b7bdd"], "ok": true}}
+{"event": "experiment_phase", "ts": 1761246614199, "actor": "service", "ref": "exp_auto", "explain": ["experiment exp_auto -> rolled_back"], "meta": {"reason": "quality_gate"}}
+{"event": "template_apply", "ts": 1761246614199, "actor": "service", "ref": "auto", "explain": ["apply_template -> gate_policy.yaml (conf_accept=0.9)"]}
+{"event": "quality_gate_enforce", "ts": 1761246614200, "actor": "service", "ref": "20251023", "explain": ["rollback decision=rollback verdict=fail"], "meta": {"latency_ms": 0, "before": 0.9, "after": 0.9}}
+{"event": "ledger_retention", "ts": 1761246688176, "actor": "service", "ref": "20251023", "explain": ["applied days=30", "removed=0"]}
+{"ts": 1761246688, "event": "retention", "actor": "system", "ref": "", "decision": "done", "reasons": ["wrote=48", "deleted=0", "errors=0"], "slo_check": {"pass": true}}
+{"ts":1761246723,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"ts":1761246723,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"ts":1761246815,"event":"ops_change","actor":"system","decision":"reject","reasons":["freeze_window"],"slo_check":{"pass":false}}
+{"ts":1761246823,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"ts":1761246833,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"ts": 1761246948, "event": "healing", "actor": "system", "ref": "3c643327df8fec03", "decision": "restricted", "reasons": ["healing_mTTR>60s", "retention_gap>0"], "slo_check": {"pass": false}}
+{"ts": 1761246975, "event": "healing", "actor": "system", "ref": "2054d9adf66a6149", "decision": "full", "reasons": [], "slo_check": {"pass": true}}
+{"ts":1761247058,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
