@@ -1,0 +1,7 @@
+{
+  "exp_id": "exp_0002",
+  "candidate_template_id": "tpl_candidate_v1",
+  "control_template_id": "tpl_baseline_v1",
+  "phase": "promoted",
+  "decision_ts": 1700003600000
+}

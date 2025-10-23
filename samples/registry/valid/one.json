@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "templates": ["tpl_baseline_v1"],
+  "status": "active",
+  "activation": {"strategy": "all", "share": 1, "valid_for_s": 3600},
+  "evidence": {"why": ["initial baseline"], "stats": {"window_s": 3600, "ref_window_s": 3600, "delta": 0.0}, "hash": "abcd1234"}
+}

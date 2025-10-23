@@ -1,0 +1,20 @@
+{
+  "date": "20251023",
+  "daily_count_total": 738559,
+  "abstain_ratio": 0.056,
+  "gate_reject_total": 2,
+  "emit_rate_per_min": 512.888,
+  "latency_p95_ms": "n/a",
+  "accepts": 257,
+  "abstains": 0,
+  "rejects": 0,
+  "whale_policy_reload_latency_ms": 65,
+  "bucket_kpi_summary": {
+    "date": "20251023",
+    "buckets": 2,
+    "accepts": 0,
+    "abstains": 0,
+    "rejects": 0,
+    "latency_p95_ms_overall": "n/a"
+  }
+}

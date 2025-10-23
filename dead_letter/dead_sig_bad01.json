@@ -1,0 +1,1 @@
+{"signal_id": "sig_bad01", "accept": false, "delivered": false, "deliver_channels": ["file"], "retry_count": 0, "reject_reason": "enum"}

@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "experiment event",
+  "type": "object",
+  "required": ["exp_id","candidate_template_id","control_template_id","phase","decision_ts"],
+  "properties": {
+    "exp_id": {"type": "string"},
+    "suggest_id": {"type": "string"},
+    "candidate_template_id": {"type": "string"},
+    "control_template_id": {"type": "string"},
+    "phase": {"enum": ["shadow","canary","promoted","rolled_back"]},
+    "criteria": {"type": "string"},
+    "decision_ts": {"type": "integer", "minimum": 0},
+    "audit_ref": {"type": "string"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,8 @@
+deliver:
+  file:
+    enabled: true
+    out_dir: "release"
+  telegram:
+    enabled: true          # 打开占位通道（不发网）
+    chat_id: "stub_chat"   # 占位
+    bot_token: "stub"      # 占位

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "policy template",
+  "type": "object",
+  "required": ["template_id", "params", "scope", "safety", "meta"],
+  "properties": {
+    "template_id": {"type": "string", "minLength": 1},
+    "params": {
+      "type": "object",
+      "required": ["thresholds", "cooldown_s", "emit_caps"],
+      "properties": {
+        "thresholds": {"type": "object"},
+        "cooldown_s": {"type": "integer", "minimum": 0},
+        "vote_min": {"type": "number"},
+        "liquidity_min": {"type": "number"},
+        "emit_caps": {
+          "type": "object",
+          "required": ["per_min", "per_day"],
+          "properties": {
+            "per_min": {"type": "integer", "minimum": 0},
+            "per_day": {"type": "integer", "minimum": 0}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "scope": {
+      "type": "object",
+      "required": ["symbols", "levels"],
+      "properties": {
+        "symbols": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "levels": {"type": "array", "items": {"enum": ["A","B","C"]}, "minItems": 1}
+      },
+      "additionalProperties": false
+    },
+    "safety": {
+      "type": "object",
+      "required": ["abstain_rules", "failover"],
+      "properties": {
+        "abstain_rules": {"type": "array", "items": {"type": "string"}},
+        "failover": {"enum": ["baseline","restricted"]}
+      },
+      "additionalProperties": false
+    },
+    "meta": {
+      "type": "object",
+      "required": ["created_ts", "author"],
+      "properties": {
+        "created_ts": {"type": "integer", "minimum": 0},
+        "author": {"enum": ["gpt","system"]},
+        "source_suggest_id": {"type": "string"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

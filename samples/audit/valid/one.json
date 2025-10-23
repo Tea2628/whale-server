@@ -1,0 +1,1 @@
+{"event":"gpt_suggest","ref":"sg_abcdef12","ts":1700000015000,"actor":"gpt","explain":["阈值上调+冷却延长","避开low流动性","控制每分钟发射"],"metrics":{"latency_ms_p95":1200}}

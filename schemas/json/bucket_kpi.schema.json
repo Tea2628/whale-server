@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "bucketed KPI report",
+  "type": "object",
+  "required": ["window","bucket","symbol","level","template_id","metrics"],
+  "properties": {
+    "window": {
+      "type": "object",
+      "required": ["start_ts","end_ts"],
+      "properties": {
+        "start_ts": {"type": "integer", "minimum": 0},
+        "end_ts": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "bucket": {
+      "type": "object",
+      "properties": {
+        "time": {"enum": ["hour"]},
+        "vol": {"enum": ["low","mid","high"]},
+        "liq": {"enum": ["low","mid","high"]}
+      },
+      "additionalProperties": true
+    },
+    "symbol": {"type": "string"},
+    "level": {"enum": ["A","B","C"]},
+    "template_id": {"type": "string"},
+    "metrics": {
+      "type": "object",
+      "required": ["emit_cnt","abstain_ratio","latency_p95_ms","utility_precision","gate_reject_rate","ttl_expire_rate"],
+      "properties": {
+        "emit_cnt": {"type": "integer", "minimum": 0},
+        "abstain_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "latency_p95_ms": {"oneOf": [{"type":"number"}, {"enum":["n/a"]}]},
+        "utility_precision": {"type": "number"},
+        "gate_reject_rate": {"type": "number", "minimum": 0, "maximum": 1},
+        "ttl_expire_rate": {"type": "number", "minimum": 0, "maximum": 1},
+        "drawdown_proxy": {"type": "number"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

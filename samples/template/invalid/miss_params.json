@@ -1,0 +1,6 @@
+{
+  "template_id": "bad_tpl",
+  "scope": {"symbols": ["BTCUSDT"], "levels": ["A"]},
+  "safety": {"abstain_rules": [], "failover": "baseline"},
+  "meta": {"created_ts": 1700000000002, "author": "gpt"}
+}

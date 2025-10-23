@@ -1,0 +1,15 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"audit",
+  "type":"object",
+  "required":["event","ref","ts","actor","explain"],
+  "properties":{
+    "event":{"type":"string","enum":["ingest","feature","rule","gpt_suggest","gate","deliver","degrade"]},
+    "ref":{"type":"string"},
+    "ts":{"type":"integer","minimum":0},
+    "actor":{"type":"string","enum":["service","gpt"]},
+    "explain":{"type":"array","items":{"type":"string"},"minItems":1},
+    "metrics":{"type":"object"}
+  },
+  "additionalProperties": false
+}

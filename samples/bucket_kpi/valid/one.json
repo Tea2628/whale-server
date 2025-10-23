@@ -1,0 +1,15 @@
+{
+  "window": {"start_ts": 1700000000000, "end_ts": 1700003600000},
+  "bucket": {"time": "hour", "vol": "mid", "liq": "mid"},
+  "symbol": "BTCUSDT",
+  "level": "A",
+  "template_id": "tpl_baseline_v1",
+  "metrics": {
+    "emit_cnt": 120,
+    "abstain_ratio": 0.1,
+    "latency_p95_ms": 35,
+    "utility_precision": 0.62,
+    "gate_reject_rate": 0.01,
+    "ttl_expire_rate": 0.02
+  }
+}

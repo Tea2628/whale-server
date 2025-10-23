@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "features",
+  "type": "object",
+  "required": ["ts","symbol","mid_price","spread_bps","micro_price","liquidity_tag"],
+  "properties": {
+    "ts": {"type":"integer", "minimum":0},
+    "symbol": {"type":"string", "minLength":1},
+    "mid_price": {"type":"number"},
+    "spread_bps": {"type":"number"},
+    "micro_price": {"type":"number"},
+    "liquidity_tag": {"type":"string","enum":["low","normal","high"]}
+  },
+  "additionalProperties": false
+}

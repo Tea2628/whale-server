@@ -1,0 +1,35 @@
+{
+  "date": "20251023",
+  "total": {
+    "accepts": 0,
+    "abstains": 0,
+    "rejects": 0,
+    "buckets": 2
+  },
+  "latency_p95_ms_overall": "n/a",
+  "buckets": [
+    {
+      "bucket": {
+        "time": "hour",
+        "vol": "mid",
+        "liq": "mid"
+      },
+      "accepts": 0,
+      "abstains": 0,
+      "rejects": 0,
+      "latency_p95_ms": null
+    },
+    {
+      "bucket": {
+        "time": "hour",
+        "vol": "high",
+        "liq": "low"
+      },
+      "accepts": 0,
+      "abstains": 0,
+      "rejects": 0,
+      "latency_p95_ms": null
+    }
+  ],
+  "source": "samples/bucket_kpi(valid+edge)"
+}

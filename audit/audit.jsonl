@@ -1,0 +1,832 @@
+{"event": "gate", "ref": "sig_00112233", "ts": 1761236876776, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "gate", "ref": "sig_bad01", "ts": 1761236885691, "actor": "service", "explain": ["Gate-Lite reject"]}
+{"event": "gate", "ref": "sig_bad01", "ts": 1761236894856, "actor": "service", "explain": ["Gate-Lite reject"]}
+{"event": "gate", "ref": "sig_edge01", "ts": 1761236974936, "actor": "service", "explain": ["Gate-Lite abstain: low_conf"]}
+{"event": "gate", "ref": "sim_bac95b6a", "ts": 1761237052176, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "gate", "ref": "sim_2a930790", "ts": 1761237116093, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "sig_00112233", "ts": 1761237351782, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/sig_00112233.json"]}
+{"event": "deliver", "ref": "sim_2a930790", "ts": 1761237351820, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/sim_2a930790.json"]}
+{"event": "deliver", "ref": "sim_bac95b6a", "ts": 1761237351857, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/sim_bac95b6a.json"]}
+{"event": "deliver", "ref": "sig_00112233", "ts": 1761237492566, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/sig_00112233.json"]}
+{"event": "deliver", "ref": "sig_00112233", "ts": 1761237492587, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "deliver", "ref": "sim_2a930790", "ts": 1761237492631, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/sim_2a930790.json"]}
+{"event": "deliver", "ref": "sim_2a930790", "ts": 1761237492652, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "deliver", "ref": "sim_bac95b6a", "ts": 1761237492697, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/sim_bac95b6a.json"]}
+{"event": "deliver", "ref": "sim_bac95b6a", "ts": 1761237492718, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_609cdfdb", "ts": 1761238217285, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "gate", "ref": "sim_609cdfdb", "ts": 1761238217312, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "gate", "ref": "sim_80494d86", "ts": 1761238482116, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482159, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482180, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a023d3f3", "ts": 1761238482237, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482277, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482298, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_fff983dd", "ts": 1761238482354, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482394, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482415, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_6953fa00", "ts": 1761238482471, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482511, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482532, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0cffd9b5", "ts": 1761238482587, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482627, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482648, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_49857c87", "ts": 1761238482703, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482744, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482765, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_77f72950", "ts": 1761238482821, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482861, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482882, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_6518fade", "ts": 1761238482938, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238482978, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238483000, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_75aebb5f", "ts": 1761238483056, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238483098, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238483119, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_32a3800a", "ts": 1761238483174, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238483214, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_probe.json"]}
+{"event": "deliver", "ref": "tmp_sig_probe", "ts": 1761238483235, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e1e78d12", "ts": 1761238560758, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238560799, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238560820, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5aa36c58", "ts": 1761238560875, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238560914, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238560935, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_9a007a37", "ts": 1761238560988, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561027, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561048, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5d37d5a9", "ts": 1761238561104, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561143, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561163, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_4ab0c523", "ts": 1761238561218, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561257, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561278, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b17c3b56", "ts": 1761238561332, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561372, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561393, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_d9cdbce3", "ts": 1761238561450, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561491, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561511, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b2896be1", "ts": 1761238561569, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561609, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561630, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_991d6f5d", "ts": 1761238561687, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561727, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561748, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_67859399", "ts": 1761238561805, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561845, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561866, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e262892f", "ts": 1761238561923, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561962, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238561983, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7ddec87d", "ts": 1761238562037, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562077, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562099, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_d7b1369e", "ts": 1761238562153, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562193, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562215, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c4895321", "ts": 1761238562270, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562310, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562332, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5aec7dea", "ts": 1761238562388, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562428, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562449, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0629ffb3", "ts": 1761238562506, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562548, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562569, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3751ab8d", "ts": 1761238562625, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562665, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562686, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e12071ee", "ts": 1761238562741, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562783, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562805, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_14ce38b9", "ts": 1761238562860, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562900, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238562921, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5b34b9f3", "ts": 1761238562977, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563016, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563036, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cf109303", "ts": 1761238563092, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563132, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563154, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_dcb8f67e", "ts": 1761238563209, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563250, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563271, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ed6b14ce", "ts": 1761238563328, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563368, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563390, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_889e594d", "ts": 1761238563447, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563487, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563508, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f39bcf33", "ts": 1761238563565, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563604, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563625, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_24fd9088", "ts": 1761238563681, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563723, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563744, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f2b6c5ba", "ts": 1761238563802, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563844, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563865, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c22c03a3", "ts": 1761238563921, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563961, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238563982, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cb7e4d6a", "ts": 1761238564038, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564078, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564100, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bb0104a3", "ts": 1761238564157, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564197, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564218, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b15b394f", "ts": 1761238564275, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564315, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564336, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5475cc81", "ts": 1761238564391, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564431, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564452, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a81e88f8", "ts": 1761238564507, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564547, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564568, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_379e29e4", "ts": 1761238564623, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564664, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564685, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_fef12727", "ts": 1761238564741, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564782, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564803, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_9e7e217e", "ts": 1761238564860, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564900, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238564921, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ee0ecce6", "ts": 1761238564977, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565016, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565037, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_09546d7e", "ts": 1761238565091, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565130, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565151, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c9f7b034", "ts": 1761238565206, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565245, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565266, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_2d2208bc", "ts": 1761238565320, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565360, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565380, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c07007b0", "ts": 1761238565436, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565476, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565497, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8508a7d1", "ts": 1761238565554, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565594, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565615, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cffb805d", "ts": 1761238565670, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565710, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565732, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7b2ca9ee", "ts": 1761238565786, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565829, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565850, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bc09e0ca", "ts": 1761238565905, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565945, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238565966, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_af0667d6", "ts": 1761238566021, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566061, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566082, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b240d6bf", "ts": 1761238566139, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566178, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566199, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b513a3a1", "ts": 1761238566255, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566294, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566315, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0e579924", "ts": 1761238566370, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566410, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566432, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_af664bac", "ts": 1761238566487, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566528, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566549, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8edeef70", "ts": 1761238566606, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566646, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566667, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_711f02bd", "ts": 1761238566721, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566762, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566783, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_dbe2e993", "ts": 1761238566840, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566880, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566901, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8cda3970", "ts": 1761238566957, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238566998, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567019, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_59ce8af4", "ts": 1761238567076, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567116, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567138, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f9665827", "ts": 1761238567196, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567238, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567259, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cc04b9e9", "ts": 1761238567315, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567355, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567376, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_50bdef29", "ts": 1761238567431, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567471, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567492, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_dc01c342", "ts": 1761238567546, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567588, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567609, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e75dfc75", "ts": 1761238567666, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567706, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567727, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cde7cd39", "ts": 1761238567783, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567823, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567844, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_401650e7", "ts": 1761238567901, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567939, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238567960, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_944460b5", "ts": 1761238568015, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568054, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568076, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_329b7259", "ts": 1761238568133, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568173, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568194, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c7ea294e", "ts": 1761238568249, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568288, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568310, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b77235cb", "ts": 1761238568365, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568405, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568426, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_224c2ad2", "ts": 1761238568483, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568524, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568545, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_15728386", "ts": 1761238568603, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568643, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568665, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e8eb522d", "ts": 1761238568723, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568764, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568785, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_76c52d45", "ts": 1761238568843, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568883, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568904, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c7283fe5", "ts": 1761238568958, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238568998, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569019, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_02fba680", "ts": 1761238569077, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569117, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569138, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5b441f45", "ts": 1761238569193, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569233, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569254, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_d4f5179e", "ts": 1761238569309, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569350, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569371, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f65e59b6", "ts": 1761238569426, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569466, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569487, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_9705ed7e", "ts": 1761238569542, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569582, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569604, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_9e2a8dfc", "ts": 1761238569660, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569698, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569719, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_81fa96d9", "ts": 1761238569774, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569817, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569838, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7f7ca6c4", "ts": 1761238569893, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569931, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238569952, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ab87b5bd", "ts": 1761238570007, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570047, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570068, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_86a776bd", "ts": 1761238570125, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570165, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570187, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_709c9cfd", "ts": 1761238570242, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570282, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570303, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a7f3d53c", "ts": 1761238570360, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570400, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570421, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7d261da1", "ts": 1761238570476, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570516, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570537, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_279616a7", "ts": 1761238570593, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570633, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570654, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a45d94a1", "ts": 1761238570712, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570751, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570772, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_91b3a937", "ts": 1761238570827, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570868, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570889, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f6a0fb4a", "ts": 1761238570944, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238570983, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571004, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f784df69", "ts": 1761238571059, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571099, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571120, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ca19ab73", "ts": 1761238571175, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571216, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571238, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eeaa49b6", "ts": 1761238571295, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571335, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571356, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_49a9e19b", "ts": 1761238571411, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571451, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571472, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_2f7a4e9e", "ts": 1761238571528, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571569, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571591, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c293fffc", "ts": 1761238571648, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571690, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571711, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_89e3872c", "ts": 1761238571768, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571808, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571829, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0e90acac", "ts": 1761238571884, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571923, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238571944, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bdf6227d", "ts": 1761238571998, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572038, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572059, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eeeffcf6", "ts": 1761238572114, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572154, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572176, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_1c0d4b43", "ts": 1761238572232, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572272, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572293, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_04b9d9a1", "ts": 1761238572348, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572388, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572409, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8ce8b433", "ts": 1761238572465, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572505, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572527, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e4b6aea3", "ts": 1761238572582, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572622, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572643, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f784703a", "ts": 1761238572698, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572740, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572762, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_999a0207", "ts": 1761238572817, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572857, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572878, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_2b704ce9", "ts": 1761238572933, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572973, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238572995, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_780c009e", "ts": 1761238573050, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573090, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573111, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_074df0c9", "ts": 1761238573167, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573207, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573228, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c16b9102", "ts": 1761238573285, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573325, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573346, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_42d95017", "ts": 1761238573401, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573442, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573463, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eb012fa9", "ts": 1761238573520, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573559, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573581, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ee8fc7e9", "ts": 1761238573636, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573676, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573697, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c7a9609e", "ts": 1761238573753, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573793, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573814, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_900f5b0b", "ts": 1761238573871, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573911, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238573931, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c84af047", "ts": 1761238573986, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574025, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574046, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cd869926", "ts": 1761238574101, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574141, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574162, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_944d6ff5", "ts": 1761238574219, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574258, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574280, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a26b9eb6", "ts": 1761238574335, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574375, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574397, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_fc7ae0bf", "ts": 1761238574452, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574492, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574513, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c0b453b6", "ts": 1761238574568, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574608, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574629, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_18d1c7a0", "ts": 1761238574686, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574726, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574748, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5cdd7fb2", "ts": 1761238574806, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574846, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574868, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_08dcf62e", "ts": 1761238574924, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574963, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238574983, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3ed119af", "ts": 1761238575038, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575077, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575098, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0bb07fc6", "ts": 1761238575153, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575193, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575214, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_4aba9c8b", "ts": 1761238575269, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575312, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575334, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c0352a0b", "ts": 1761238575389, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575429, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575451, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3b7b4bf6", "ts": 1761238575506, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575546, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575567, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_aec72b33", "ts": 1761238575622, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575662, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575683, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_6bd5e2ef", "ts": 1761238575738, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575779, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575800, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3bb63636", "ts": 1761238575857, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575897, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238575918, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5b892bba", "ts": 1761238575971, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576011, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576032, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_fda968c4", "ts": 1761238576088, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576129, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576150, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_765f63c6", "ts": 1761238576207, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576246, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576268, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5b927edb", "ts": 1761238576323, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576363, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576384, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_9bff7730", "ts": 1761238576439, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576481, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576502, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bdecfc8a", "ts": 1761238576558, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576598, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576619, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bcbc0cc2", "ts": 1761238576674, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576715, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576736, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_027c7c64", "ts": 1761238576791, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576830, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576852, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_36eb18ec", "ts": 1761238576907, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576946, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238576968, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_79056178", "ts": 1761238577023, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577065, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577086, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ae82864c", "ts": 1761238577142, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577182, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577203, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b807e022", "ts": 1761238577259, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577299, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577320, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_32b3843f", "ts": 1761238577376, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577417, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577439, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0b181a29", "ts": 1761238577494, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577534, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577555, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_dff7dfea", "ts": 1761238577612, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577652, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577674, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a37df84c", "ts": 1761238577729, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577769, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577790, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b450b0b8", "ts": 1761238577848, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577888, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238577909, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e0f84aaf", "ts": 1761238577966, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578006, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578027, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7beebbcf", "ts": 1761238578082, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578122, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578143, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_49e7698b", "ts": 1761238578198, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578239, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578260, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_4b396848", "ts": 1761238578317, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578356, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578377, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_333edcde", "ts": 1761238578432, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578472, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578493, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f130bc6f", "ts": 1761238578548, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578587, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578609, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_60f8468e", "ts": 1761238578664, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578705, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578726, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c55b96d8", "ts": 1761238578783, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578823, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578844, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cc3bcd9f", "ts": 1761238578899, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578940, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238578962, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8d0b3b4a", "ts": 1761238579017, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579057, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579078, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a4c3b14c", "ts": 1761238579133, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579173, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579194, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0c362266", "ts": 1761238579250, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579291, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579313, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f1b4643f", "ts": 1761238579368, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579408, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579429, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7c2874cf", "ts": 1761238579484, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579525, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579546, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_653be3b4", "ts": 1761238579604, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579645, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579666, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_90b01b05", "ts": 1761238579722, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579761, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579783, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_14cf34f8", "ts": 1761238579838, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579879, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579899, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_ee83a98c", "ts": 1761238579954, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238579996, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580017, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_62cc49f5", "ts": 1761238580072, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580112, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580133, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_019febde", "ts": 1761238580192, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580234, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580255, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cf6953eb", "ts": 1761238580311, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580351, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580372, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_38a138cc", "ts": 1761238580427, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580467, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580489, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_08b40d6b", "ts": 1761238580547, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580588, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580609, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b661012c", "ts": 1761238580666, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580706, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580727, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f2532a03", "ts": 1761238580782, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580822, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580843, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_d25f2daa", "ts": 1761238580898, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580937, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238580958, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a5001968", "ts": 1761238581014, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581055, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581076, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8b302015", "ts": 1761238581131, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581171, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581192, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_99e40dcf", "ts": 1761238581247, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581287, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581309, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3d1374bc", "ts": 1761238581364, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581405, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581426, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cd00cd22", "ts": 1761238581483, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581523, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581545, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_1319e6f1", "ts": 1761238581600, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581640, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581662, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bf11366d", "ts": 1761238581718, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581758, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581780, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7168b47e", "ts": 1761238581836, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581875, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581896, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_96ed76b5", "ts": 1761238581950, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238581989, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582010, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_81e57f32", "ts": 1761238582065, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582105, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582126, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_23216cba", "ts": 1761238582182, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582221, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582243, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eb5d8186", "ts": 1761238582298, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582338, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582359, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_db486aa8", "ts": 1761238582414, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582454, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582475, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b8da5f80", "ts": 1761238582530, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582570, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582591, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bbed011f", "ts": 1761238582648, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582688, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582709, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_cf48f7cb", "ts": 1761238582764, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582804, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582825, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_1f9af549", "ts": 1761238582880, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582919, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238582940, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_1ec60fdf", "ts": 1761238582995, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583035, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583056, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b8aaced8", "ts": 1761238583111, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583151, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583172, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b76ee119", "ts": 1761238583227, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583267, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583288, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_6a37fdce", "ts": 1761238583344, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583384, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583405, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a1ba38c6", "ts": 1761238583460, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583500, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583521, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_edebc982", "ts": 1761238583577, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583617, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583638, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c5c3bee8", "ts": 1761238583694, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583735, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583756, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5cc828ff", "ts": 1761238583813, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583853, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583874, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f2f889e1", "ts": 1761238583928, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583967, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238583988, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_af305da9", "ts": 1761238584042, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584082, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584102, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_20c1843f", "ts": 1761238584157, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584195, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584216, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b7470845", "ts": 1761238584270, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584309, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584330, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5e677577", "ts": 1761238584385, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584425, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584447, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_4df5a4e3", "ts": 1761238584502, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584543, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584564, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a815d03a", "ts": 1761238584620, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584662, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584683, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_524a414e", "ts": 1761238584738, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584780, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584801, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_225083e6", "ts": 1761238584856, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584896, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238584917, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e34602e6", "ts": 1761238584972, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585012, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585034, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_173d40db", "ts": 1761238585090, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585130, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585151, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_95227560", "ts": 1761238585207, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585247, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585268, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c934463e", "ts": 1761238585323, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585363, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585384, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_06d1915d", "ts": 1761238585441, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585481, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585502, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_6e36ad50", "ts": 1761238585558, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585598, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585619, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_61c35dde", "ts": 1761238585674, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585714, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585735, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eb5be40f", "ts": 1761238585790, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585830, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585851, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_bc861be7", "ts": 1761238585906, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585945, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238585966, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_2c39c3dc", "ts": 1761238586021, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586061, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586082, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_83fa33d9", "ts": 1761238586138, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586178, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586199, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f214dbb0", "ts": 1761238586254, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586294, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586315, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_22e9a9ca", "ts": 1761238586371, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586410, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586432, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_130a56aa", "ts": 1761238586487, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586527, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586548, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b892c09b", "ts": 1761238586605, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586645, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586666, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_27810523", "ts": 1761238586721, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586760, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586782, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f025fb6d", "ts": 1761238586836, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586876, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586897, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e0529a93", "ts": 1761238586952, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238586991, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587012, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_4a2e2959", "ts": 1761238587066, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587106, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587128, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3343d37d", "ts": 1761238587185, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587227, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587248, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_4cc40f8e", "ts": 1761238587305, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587344, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587365, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_53734ccc", "ts": 1761238587423, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587463, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587484, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_3798d0b5", "ts": 1761238587539, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587580, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587602, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_6aad35fe", "ts": 1761238587659, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587699, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587720, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e1bac6c1", "ts": 1761238587776, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587815, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587837, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_67f70d7c", "ts": 1761238587892, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587931, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238587952, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eabdde43", "ts": 1761238588007, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588049, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588071, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_9a0a397d", "ts": 1761238588129, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588171, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588192, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a27d825b", "ts": 1761238588248, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588287, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588308, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_12d03ffa", "ts": 1761238588363, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588403, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588424, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8062090c", "ts": 1761238588479, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588521, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588542, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c94155d4", "ts": 1761238588597, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588638, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588659, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a8e79404", "ts": 1761238588715, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588755, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588776, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_831fea3b", "ts": 1761238588831, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588872, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588893, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_c80a2e19", "ts": 1761238588948, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238588988, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589009, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_53c6e75d", "ts": 1761238589065, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589105, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589126, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_d9a72b7e", "ts": 1761238589181, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589221, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589242, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_a3a8bd13", "ts": 1761238589298, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589338, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589359, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_33999d20", "ts": 1761238589414, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589454, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589475, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_7dd72b0a", "ts": 1761238589532, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589571, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589592, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_833923e1", "ts": 1761238589648, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589688, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589709, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_8b04308f", "ts": 1761238589764, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589804, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589826, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_e858ce65", "ts": 1761238589881, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589921, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238589942, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_914e2d41", "ts": 1761238589998, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590038, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590059, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_513b51ae", "ts": 1761238590115, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590155, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590176, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_5246fb31", "ts": 1761238590233, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590275, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590296, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_0158a23f", "ts": 1761238590352, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590392, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590413, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_eeb0d87a", "ts": 1761238590469, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590509, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590530, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_b242cdc2", "ts": 1761238590585, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590625, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590647, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_089659d6", "ts": 1761238590702, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590743, "actor": "service", "explain": ["deliver:file -> /home/tm/repos/whale-server/release/20251023/tmp_sig_capacity.json"]}
+{"event": "deliver", "ref": "tmp_sig_capacity", "ts": 1761238590764, "actor": "service", "explain": ["deliver:telegram stub -> /home/tm/repos/whale-server/logs/telegram.log"]}
+{"event": "gate", "ref": "sim_f8eb746b", "ts": 1761238906044, "actor": "service", "explain": ["Gate-Wrapper abstain: conf<0.9"]}
+{"event": "gate", "ref": "sim_09caf612", "ts": 1761239076107, "actor": "service", "explain": ["Gate-Wrapper abstain: conf<0.9"]}
+{"event": "gate", "ref": "sim_bc8f8ae0", "ts": 1761239245720, "actor": "service", "explain": ["Gate-Wrapper abstain: conf<0.9"]}
+{"event": "gate", "ref": "sim_bc8f8ae0", "ts": 1761239245780, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "gate", "ref": "sim_34cb5583", "ts": 1761239254668, "actor": "service", "explain": ["Gate-Wrapper abstain: conf<0.9"]}
+{"event": "gate", "ref": "sim_34cb5583", "ts": 1761239254730, "actor": "service", "explain": ["Gate-Lite ACCEPT tag=A"]}
+{"event": "template_apply", "ts": 1761239308448, "actor": "service", "ref": "one", "explain": ["apply_template -> gate_policy.yaml (conf_accept=0.6, conf_abstain=0.0)"]}
+{"event": "registry_preview", "ts": 1761239733342, "actor": "service", "ref": "policy_one_v1", "meta": {"template": "one", "share": 0.1}, "explain": ["preview policy_one_v1"]}
+{"event": "registry_update", "ts": 1761239733370, "actor": "service", "ref": "policy_one_v1", "meta": {"template": "one", "share": 0.1, "ttl_min": 60}, "explain": ["commit policy_one_v1"]}
+{"event": "experiment_phase", "ts": 1761239733394, "actor": "service", "ref": "exp_one_v1", "phase": "shadow", "meta": {"registry": "policy_one_v1"}, "explain": ["experiment exp_one_v1 -> shadow"]}
+{"event": "experiment_phase", "ts": 1761239733417, "actor": "service", "ref": "exp_one_v1", "phase": "canary", "meta": {"registry": "policy_one_v1", "canary_share": 0.1}, "explain": ["experiment exp_one_v1 -> canary"]}
+{"event": "experiment_phase", "ts": 1761239733440, "actor": "service", "ref": "exp_one_v1", "phase": "promoted", "meta": {"criteria": "kpi_ok>=2/3"}, "explain": ["experiment exp_one_v1 -> promoted"]}
+{"event": "experiment_phase", "ts": 1761239733463, "actor": "service", "ref": "exp_one_v1", "phase": "rolled_back", "meta": {"reason": "manual_safety"}, "explain": ["experiment exp_one_v1 -> rolled_back"]}
+{"event": "bucket_kpi_rollup", "ts": 1761240308124, "actor": "service", "ref": "20251023", "explain": ["bucket_kpi aggregated from samples -> /home/tm/repos/whale-server/evidence/bucket_kpi/20251023_rollup.json"]}

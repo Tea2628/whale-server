@@ -1,0 +1,15 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"gateway_attempt",
+  "type":"object",
+  "required":["signal_id","accept","delivered","deliver_channels","retry_count"],
+  "properties":{
+    "signal_id":{"type":"string"},
+    "accept":{"type":"boolean"},
+    "reject_reason":{"type":"string"},
+    "delivered":{"type":"boolean"},
+    "deliver_channels":{"type":"array","items":{"type":"string"}},
+    "retry_count":{"type":"integer","minimum":0}
+  },
+  "additionalProperties": false
+}

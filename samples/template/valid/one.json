@@ -1,0 +1,13 @@
+{
+  "template_id": "tpl_baseline_v1",
+  "params": {
+    "thresholds": {"conf_accept": 0.60, "conf_shadow": 0.55},
+    "cooldown_s": 3,
+    "vote_min": 1,
+    "liquidity_min": 0.0,
+    "emit_caps": {"per_min": 30, "per_day": 2000}
+  },
+  "scope": {"symbols": ["BTCUSDT"], "levels": ["A","B"]},
+  "safety": {"abstain_rules": ["missing_data","vol_extreme"], "failover": "baseline"},
+  "meta": {"created_ts": 1700000000000, "author": "system", "notes": "baseline"}
+}

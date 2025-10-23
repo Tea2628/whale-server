@@ -1,0 +1,1 @@
+{"suggest_id":"sg_edge001","ts":1700000200000,"symbol_set":["BTCUSDT"],"param_set":{"min_conf":0.61},"valid_for":60,"evidence":{"why":["回撤收窄","量价背离","盘口改善"],"source_window":180},"risk_annotation":{"max_emit_per_min":2,"max_daily_emit":20},"hash":"edge0001"}

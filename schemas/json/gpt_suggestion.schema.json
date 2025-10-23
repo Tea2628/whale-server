@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "gpt_suggestion",
+  "type": "object",
+  "required": ["suggest_id","ts","symbol_set","param_set","valid_for","evidence","risk_annotation","hash"],
+  "properties": {
+    "suggest_id": {"type":"string","minLength":8},
+    "ts": {"type":"integer","minimum":0},
+    "symbol_set": {"type":"array","minItems":1,"items":{"type":"string"}},
+    "param_set": {"type":"object"},
+    "valid_for": {"type":"integer","minimum":1},
+    "evidence": {
+      "type":"object",
+      "required":["why","source_window"],
+      "properties":{
+        "why":{"type":"array","minItems":3,"items":{"type":"string"}},
+        "stats":{"type":"object"},
+        "source_window":{"type":"integer","minimum":1}
+      },
+      "additionalProperties": true
+    },
+    "risk_annotation":{
+      "type":"object",
+      "properties":{
+        "max_emit_per_min":{"type":"integer","minimum":0},
+        "max_daily_emit":{"type":"integer","minimum":0},
+        "abstain_rules":{"type":"object"}
+      },
+      "additionalProperties": true
+    },
+    "hash":{"type":"string","minLength":8}
+  },
+  "additionalProperties": false
+}

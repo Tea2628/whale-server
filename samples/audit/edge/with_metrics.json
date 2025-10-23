@@ -1,0 +1,1 @@
+{"event":"gate","ref":"sig_edge01","ts":1700000400000,"actor":"service","explain":["Gate-Lite: conf=0.51, 放入B级影子"],"metrics":{"latency_ms_p95":850,"abstain_ratio":0.1}}

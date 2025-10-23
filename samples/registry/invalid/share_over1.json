@@ -1,0 +1,7 @@
+{
+  "version": "1.2.0",
+  "templates": ["tpl_candidate_v2"],
+  "status": "canary",
+  "activation": {"strategy": "subset", "share": 1.2, "valid_for_s": 900},
+  "evidence": {"why": [], "stats": {"window_s": 900, "ref_window_s": 900, "delta": 0.05}, "hash": "deadbeef"}
+}

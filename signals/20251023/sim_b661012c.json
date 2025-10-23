@@ -1,0 +1,1 @@
+{"id": "sim_b661012c", "ts": 1700000000000, "symbol": "BTCUSDT", "side": "buy", "level": "A", "conf": 0.743, "expected_pnl": 10.0, "risk_budget": 0.05, "ttl_s": 60, "abstain": false, "reasons": ["spread_bps=0.7", "micro_vs_mid=68001.1>68000.5"], "policy_ref": "sg_sim_min_v1", "contract_version": "1.0.0"}

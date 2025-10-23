@@ -1,0 +1,7 @@
+{
+  "version": "1.1.0",
+  "templates": ["tpl_candidate_v1","tpl_baseline_v1"],
+  "status": "canary",
+  "activation": {"strategy": "subset", "share": 0.1, "valid_for_s": 1800},
+  "evidence": {"why": ["controlled canary"], "stats": {"window_s": 1800, "ref_window_s": 3600, "delta": 0.06}, "hash": "ef987654"}
+}

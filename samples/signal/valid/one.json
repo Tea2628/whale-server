@@ -1,0 +1,1 @@
+{"id":"sig_00112233","ts":1700000010000,"symbol":"BTCUSDT","side":"buy","level":"A","conf":0.66,"expected_pnl":12.3,"risk_budget":0.05,"ttl_s":60,"abstain":false,"reasons":["价差修复","量能确认"],"policy_ref":"sg_abcdef12","contract_version":"1.0.0"}

@@ -1,0 +1,7 @@
+{
+  "exp_id": "exp_bad",
+  "candidate_template_id": "tpl_x",
+  "control_template_id": "tpl_y",
+  "phase": "promte",
+  "decision_ts": 1700000000000
+}

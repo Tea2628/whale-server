@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "signal",
+  "type":"object",
+  "required":["id","ts","symbol","side","level","conf","ttl_s","abstain","reasons","policy_ref","contract_version"],
+  "properties":{
+    "id":{"type":"string","minLength":8},
+    "ts":{"type":"integer","minimum":0},
+    "symbol":{"type":"string"},
+    "side":{"type":"string","enum":["buy","sell"]},
+    "level":{"type":"string","enum":["A","B","C"]},
+    "conf":{"type":"number","minimum":0,"maximum":1},
+    "expected_pnl":{"type":"number"},
+    "risk_budget":{"type":"number","exclusiveMinimum":0,"maximum":1},
+    "ttl_s":{"type":"integer","minimum":1},
+    "abstain":{"type":"boolean"},
+    "reasons":{"type":"array","items":{"type":"string"}},
+    "policy_ref":{"type":"string"},
+    "contract_version":{"type":"string"}
+  },
+  "additionalProperties": false
+}

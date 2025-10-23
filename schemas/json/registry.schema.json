@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "template registry",
+  "type": "object",
+  "required": ["version","templates","status","activation","evidence"],
+  "properties": {
+    "version": {"type": "string", "minLength": 1},
+    "templates": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "status": {"enum": ["active","shadow","canary","retired"]},
+    "activation": {
+      "type": "object",
+      "required": ["strategy","share","valid_for_s"],
+      "properties": {
+        "strategy": {"enum": ["all","subset"]},
+        "share": {"type": "number", "minimum": 0, "maximum": 1},
+        "valid_for_s": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["why","stats","hash"],
+      "properties": {
+        "why": {"type": "array", "items": {"type": "string"}},
+        "stats": {
+          "type": "object",
+          "required": ["window_s","ref_window_s","delta"],
+          "properties": {
+            "window_s": {"type": "integer", "minimum": 1},
+            "ref_window_s": {"type": "integer", "minimum": 1},
+            "delta": {"type": "number"}
+          },
+          "additionalProperties": false
+        },
+        "hash": {"type": "string", "minLength": 8}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
