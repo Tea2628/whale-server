@@ -1,0 +1,22 @@
+{
+  "ts": 1761262425,
+  "version": "v0.4.0-beta",
+  "channel": "beta",
+  "decision": "reject",
+  "gates": {
+    "contract": "pass",
+    "consistency": "reject",
+    "redlines": "reject"
+  },
+  "reasons": [
+    "contract:ok ['OK=75 BAD=0']",
+    "consistency:score=0",
+    "redlines:citation_pass=0, redline_block_total=0"
+  ],
+  "metrics": {},
+  "artifacts": {
+    "registry_index": "evidence/schema_registry/LATEST_INDEX.json",
+    "consistency_json": "dashboards/consistency.json",
+    "metrics_json": "dashboards/metrics.json"
+  }
+}
