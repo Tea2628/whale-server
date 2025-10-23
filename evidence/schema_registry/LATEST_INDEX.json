@@ -1,0 +1,251 @@
+{
+  "ts": 1761260157,
+  "entries": [
+    {
+      "name": "audit",
+      "path": "schemas/json/audit.schema.json",
+      "sha256": "ccddeccdad6e6d844196cda1a6c3f40563762023e9dd1108c8f6225eb8aa76f0",
+      "samples": [
+        "samples/audit/edge/with_metrics.json",
+        "samples/audit/invalid/event_typo.json",
+        "samples/audit/valid/one.json"
+      ]
+    },
+    {
+      "name": "billing_event",
+      "path": "schemas/json/billing_event.schema.json",
+      "sha256": "5eaf6148e7280b2a3b18b964b78ddd3ddb4007926a80a18d0f3364e12c55af1b",
+      "samples": [
+        "samples/billing_event/edge/refund.json",
+        "samples/billing_event/invalid/miss_type.json",
+        "samples/billing_event/valid/usage.json"
+      ]
+    },
+    {
+      "name": "bucketed KPI report",
+      "path": "schemas/json/bucket_kpi.schema.json",
+      "sha256": "2fc7ff8dd39268ba1c4463d1d18974fb4fc420c749d97bf17723311ca8b98d2d",
+      "samples": [
+        "samples/bucket_kpi/edge/lat_n_a.json",
+        "samples/bucket_kpi/invalid/bad_ratio.json",
+        "samples/bucket_kpi/valid/one.json"
+      ]
+    },
+    {
+      "name": "budget_state",
+      "path": "schemas/json/budget_state.schema.json",
+      "sha256": "c092a9b449f9c8c0318f3802e1c036bae4110a3ba3e7cde5948751e9eecac5b1",
+      "samples": [
+        "samples/budget_state/edge/cooldown.json",
+        "samples/budget_state/invalid/missing.json",
+        "samples/budget_state/valid/a_ok.json"
+      ]
+    },
+    {
+      "name": "PLACEHOLDER - defined in C stage",
+      "path": "schemas/json/dataset_manifest.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "samples": [
+        "samples/dataset_manifest/edge/edge_case.json",
+        "samples/dataset_manifest/invalid/missing_fields.json",
+        "samples/dataset_manifest/valid/one.json"
+      ]
+    },
+    {
+      "name": "PLACEHOLDER - defined in C stage",
+      "path": "schemas/json/delayed_reward_ledger.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "samples": [
+        "samples/delayed_reward_ledger/edge/edge_case.json",
+        "samples/delayed_reward_ledger/invalid/missing_fields.json",
+        "samples/delayed_reward_ledger/valid/one.json"
+      ]
+    },
+    {
+      "name": "execution_report",
+      "path": "schemas/json/execution_report.schema.json",
+      "sha256": "868cb744d3e459637c28c01b90b1029dd949ef15f3cb7226e24db0fe8bc95771",
+      "samples": [
+        "samples/execution_report/edge/partial.json",
+        "samples/execution_report/invalid/missing_status.json",
+        "samples/execution_report/valid/filled.json"
+      ]
+    },
+    {
+      "name": "experiment event",
+      "path": "schemas/json/experiment.schema.json",
+      "sha256": "f1b20849fe1d29c3591673e184c4473e3fd7dccb96d23de749737a576c9a5942",
+      "samples": [
+        "samples/experiment/edge/promoted.json",
+        "samples/experiment/invalid/phase_typo.json",
+        "samples/experiment/valid/one.json"
+      ]
+    },
+    {
+      "name": "features",
+      "path": "schemas/json/features.schema.json",
+      "sha256": "27d41156f31186eb4dd1b9d1c84760d65f5a80c4c71ce15424b69a868616d14e",
+      "samples": [
+        "samples/features/edge/missing_micro_price.json",
+        "samples/features/invalid/liquidity_out_of_range.json",
+        "samples/features/valid/one.json"
+      ]
+    },
+    {
+      "name": "gateway_attempt",
+      "path": "schemas/json/gateway_attempt.schema.json",
+      "sha256": "a62d826bc4a34c476bb1a188210f2b817d5f9d32fba697b6f60b522d18e70582",
+      "samples": [
+        "samples/gateway_attempt/edge/retry_once.json",
+        "samples/gateway_attempt/invalid/missing_accept.json",
+        "samples/gateway_attempt/valid/one.json"
+      ]
+    },
+    {
+      "name": "gpt_suggestion",
+      "path": "schemas/json/gpt_suggestion.schema.json",
+      "sha256": "b590681dfe6708d53a4327932784ecc19740c7a8faf2bdaa2684d049857a1283",
+      "samples": [
+        "samples/gpt_suggestion/edge/no_stats.json",
+        "samples/gpt_suggestion/invalid/missing_why.json",
+        "samples/gpt_suggestion/valid/one.json"
+      ]
+    },
+    {
+      "name": "PLACEHOLDER - defined in C stage",
+      "path": "schemas/json/ope_report.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "samples": [
+        "samples/ope_report/edge/edge_case.json",
+        "samples/ope_report/invalid/missing_fields.json",
+        "samples/ope_report/valid/one.json"
+      ]
+    },
+    {
+      "name": "order_request",
+      "path": "schemas/json/order_request.schema.json",
+      "sha256": "85c40b73d428aa7cfbb7d88382b3380f8404258f6d6c1213d84cff5acae19809",
+      "samples": [
+        "samples/order_request/edge/minimal.json",
+        "samples/order_request/invalid/missing_required.json",
+        "samples/order_request/valid/ok.json"
+      ]
+    },
+    {
+      "name": "pnl_ledger",
+      "path": "schemas/json/pnl_ledger.schema.json",
+      "sha256": "63882854087d952c8f141f417e255effae299f13518c6c1ae532fa6e637ed6f0",
+      "samples": [
+        "samples/pnl_ledger/edge/rebate.json",
+        "samples/pnl_ledger/invalid/miss_ref.json",
+        "samples/pnl_ledger/valid/trade.json"
+      ]
+    },
+    {
+      "name": "position_state",
+      "path": "schemas/json/position_state.schema.json",
+      "sha256": "61dcf05fcfb2f3f333b904f63dfd900e8b60ab552e0e841d5a045600841279ae",
+      "samples": [
+        "samples/position_state/edge/flat.json",
+        "samples/position_state/invalid/side.json",
+        "samples/position_state/valid/long.json"
+      ]
+    },
+    {
+      "name": "PLACEHOLDER - defined in C stage",
+      "path": "schemas/json/quality_card.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "samples": [
+        "samples/quality_card/edge/edge_case.json",
+        "samples/quality_card/invalid/missing_fields.json",
+        "samples/quality_card/valid/one.json"
+      ]
+    },
+    {
+      "name": "quota_policy",
+      "path": "schemas/json/quota_policy.schema.json",
+      "sha256": "103ee5516dc8b13e8eebd93c8e8ec1a03500fec01336ebf73eea59d3ed541e73",
+      "samples": [
+        "samples/quota_policy/edge/with_end.json",
+        "samples/quota_policy/invalid/bad_rate.json",
+        "samples/quota_policy/valid/default.json"
+      ]
+    },
+    {
+      "name": "template registry",
+      "path": "schemas/json/registry.schema.json",
+      "sha256": "6d54193e0e52c6ef92880b91d6178785a740bf27ee75f76839f6877e7b2a7fe0",
+      "samples": [
+        "samples/registry/edge/canary_10.json",
+        "samples/registry/invalid/share_over1.json",
+        "samples/registry/valid/one.json"
+      ]
+    },
+    {
+      "name": "PLACEHOLDER - defined in C stage",
+      "path": "schemas/json/replay_job.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "samples": [
+        "samples/replay_job/edge/edge_case.json",
+        "samples/replay_job/invalid/missing_fields.json",
+        "samples/replay_job/valid/one.json"
+      ]
+    },
+    {
+      "name": "risk_guard_decision",
+      "path": "schemas/json/risk_guard_decision.schema.json",
+      "sha256": "75574a6fe0178b8cfa785cdb4502177407717ee867d5b4f11ffcaab32dc05e0a",
+      "samples": [
+        "samples/risk_guard_decision/edge/resize.json",
+        "samples/risk_guard_decision/invalid/bad_decision.json",
+        "samples/risk_guard_decision/valid/allow.json"
+      ]
+    },
+    {
+      "name": "schema_registry_entry",
+      "path": "schemas/json/schema_registry.schema.json",
+      "sha256": "43ee286e217e092a1fe082f3f188c80b7d149a21bd9f88fad352d4492bd34686",
+      "samples": []
+    },
+    {
+      "name": "signal",
+      "path": "schemas/json/signal.schema.json",
+      "sha256": "7f2adf42f2cd8209f99bc0f2ab3be914fec4f7e99b27f1ee208e99f85ca9d7d6",
+      "samples": [
+        "samples/signal/edge/low_conf.json",
+        "samples/signal/invalid/side_typo.json",
+        "samples/signal/valid/one.json"
+      ]
+    },
+    {
+      "name": "strategy_pool",
+      "path": "schemas/json/strategy_pool.schema.json",
+      "sha256": "66e3fdb1cb956bc275f027e2069de04a1b1529ca3ba964ea1ce073b20fc1df12",
+      "samples": [
+        "samples/strategy_pool/edge/canary.json",
+        "samples/strategy_pool/invalid/miss_params.json",
+        "samples/strategy_pool/valid/momentum_v1.json"
+      ]
+    },
+    {
+      "name": "policy template",
+      "path": "schemas/json/template.schema.json",
+      "sha256": "8403d681755d6e6a373bfec6582ea7fe53825b53e584adb267fa6698bdc951e1",
+      "samples": [
+        "samples/template/edge/caps_zero.json",
+        "samples/template/invalid/miss_params.json",
+        "samples/template/valid/one.json"
+      ]
+    },
+    {
+      "name": "tenant",
+      "path": "schemas/json/tenant.schema.json",
+      "sha256": "44638d4f59a2707ee4f166615100695b5c60f89c37aebf038fc9ffb246b2b76a",
+      "samples": [
+        "samples/tenant/edge/suspended.json",
+        "samples/tenant/invalid/miss_name.json",
+        "samples/tenant/valid/demo.json"
+      ]
+    }
+  ]
+}

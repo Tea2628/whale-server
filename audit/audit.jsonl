@@ -988,3 +988,4 @@
 {"ts": 1761246948, "event": "healing", "actor": "system", "ref": "3c643327df8fec03", "decision": "restricted", "reasons": ["healing_mTTR>60s", "retention_gap>0"], "slo_check": {"pass": false}}
 {"ts": 1761246975, "event": "healing", "actor": "system", "ref": "2054d9adf66a6149", "decision": "full", "reasons": [], "slo_check": {"pass": true}}
 {"ts":1761247058,"event":"ops_change","actor":"system","decision":"allow","reasons":["preflight_ok"],"slo_check":{"pass":true}}
+{"ts": 1761260157, "event": "schema_registry_build", "actor": "system", "ref": "20251023_REGISTRY.jsonl", "meta": {"ref": "20251023_REGISTRY.jsonl", "schemas": 25, "coverage": 0.96}}

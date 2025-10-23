@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"schema_registry_entry",
+  "type":"object",
+  "required":["ts","kind","name","path","sha256","version","samples"],
+  "properties":{
+    "ts":{"type":"integer","minimum":0},
+    "kind":{"type":"string","enum":["schema","sample"]},
+    "name":{"type":"string"},
+    "path":{"type":"string"},
+    "sha256":{"type":"string","minLength":64,"maxLength":64},
+    "version":{"type":"string"},
+    "samples":{"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties":true
+}

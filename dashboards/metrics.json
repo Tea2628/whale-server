@@ -6,5 +6,8 @@
   "queue_backlog_total": 0,
   "secrets_rotation_age_days": 10,
   "retention_gap_files_total": 0,
-  "replay_jobs_running": 0
+  "replay_jobs_running": 0,
+  "scl_schema_total": 25,
+  "scl_coverage_ratio": 0.96,
+  "scl_last_build_ts": 1761260157
 }
