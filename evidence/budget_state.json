@@ -1,0 +1,8 @@
+{
+  "ts": 1761260391,
+  "tenant_id": "t_demo",
+  "klass": "A",
+  "budget_total": 1.0,
+  "budget_used": 0.0002,
+  "cooldown_s": 0
+}
