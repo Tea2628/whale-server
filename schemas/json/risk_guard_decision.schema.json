@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "risk_guard_decision",
+  "type": "object",
+  "required": ["request_id","decision"],
+  "properties": {
+    "request_id": {"type":"string"},
+    "decision": {"type":"string","enum":["allow","resize","delay","reject","pause_all"]},
+    "reasons": {"type":"array","items":{"type":"string"}},
+    "final_qty": {"type":["number","null"],"minimum":0},
+    "guards": {
+      "type":"object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

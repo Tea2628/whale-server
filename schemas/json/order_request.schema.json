@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "order_request",
+  "type": "object",
+  "required": ["request_id","signal_id","symbol","side","qty","order_type","ttl_s","client_order_id","risk_budget","policy_ref"],
+  "properties": {
+    "request_id": {"type":"string"},
+    "signal_id": {"type":"string"},
+    "symbol": {"type":"string"},
+    "side": {"type":"string","enum":["buy","sell"]},
+    "qty": {"type":"number","exclusiveMinimum": 0},
+    "order_type": {"type":"string","enum":["market","limit","post_only","ioc","fok"]},
+    "limit_price": {"type":["number","null"]},
+    "ttl_s": {"type":"integer","minimum":1},
+    "slippage_bps_max": {"type":["number","null"],"minimum":0},
+    "client_order_id": {"type":"string"},
+    "risk_budget": {"type":"number","exclusiveMinimum":0,"maximum":1},
+    "policy_ref": {"type":"string"},
+    "tenant_id": {"type":["string","null"]}
+  },
+  "additionalProperties": false
+}

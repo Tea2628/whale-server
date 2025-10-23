@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "execution_report",
+  "type": "object",
+  "required": ["request_id","status"],
+  "properties": {
+    "request_id": {"type":"string"},
+    "exchange_order_id": {"type":["string","null"]},
+    "status": {"type":"string","enum":["ack","partially_filled","filled","canceled","rejected","expired"]},
+    "avg_price": {"type":["number","null"],"minimum":0},
+    "filled_qty": {"type":["number","null"],"minimum":0},
+    "fees": {"type":["number","null"],"minimum":0},
+    "slippage_bps": {"type":["number","null"],"minimum":0},
+    "latency_ms": {"type":["number","null"],"minimum":0},
+    "rejection_reason": {"type":["string","null"]}
+  },
+  "additionalProperties": false
+}

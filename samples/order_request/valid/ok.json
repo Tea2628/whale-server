@@ -1,0 +1,1 @@
+{"request_id":"req_001","signal_id":"sig_001","symbol":"BTCUSDT","side":"buy","qty":0.01,"order_type":"limit","limit_price":65000,"ttl_s":30,"slippage_bps_max":15,"client_order_id":"coid_001","risk_budget":0.1,"policy_ref":"tpl_v1","tenant_id":"t_demo"}
