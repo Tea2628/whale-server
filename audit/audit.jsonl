@@ -991,3 +991,5 @@
 {"ts": 1761260157, "event": "schema_registry_build", "actor": "system", "ref": "20251023_REGISTRY.jsonl", "meta": {"ref": "20251023_REGISTRY.jsonl", "schemas": 25, "coverage": 0.96}}
 {"ts": 1761260313, "event": "order_flow", "actor": "system", "ref": "938774b308a998a0", "meta": {"strategy_id": "sp_momo_v1", "status": "active", "klass": "A", "symbol": "BTCUSDT", "side": "buy", "confidence": 0.72, "order_request_id": "req_1761260313"}}
 {"ts": 1761260313, "event": "exec_router_stub", "actor": "system", "ref": "2fa2c52d3da1cab0", "meta": {"request_id": "req_1761260313", "signal_id": "sig_demo", "status": "accepted"}}
+{"ts": 1761260347, "event": "order_flow", "actor": "system", "ref": "91660a2d708264e7", "meta": {"strategy_id": "sp_momo_v1", "status": "active", "klass": "A", "symbol": "BTCUSDT", "side": "buy", "confidence": 0.72, "order_request_id": "req_1761260347"}}
+{"ts": 1761260347, "event": "risk_guard", "actor": "system", "ref": "13123a136d684a18", "meta": {"request_id": "req_1761260347", "symbol": "BTCUSDT", "qty": 0.03, "risk_budget": 0.05, "decision": "resize", "final_qty": 0.02, "reasons": ["resize_max_qty=0.02"]}}
