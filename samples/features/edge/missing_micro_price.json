@@ -3,6 +3,6 @@
   "symbol": "BTCUSDT",
   "mid_price": 68000.0,
   "micro_price": 68000.01,
-  "liquidity": "normal",
-  "vol_1m": 12.34
+  "spread_bps": 0.5,
+  "liquidity_tag": "normal"
 }

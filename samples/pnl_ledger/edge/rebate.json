@@ -3,7 +3,6 @@
   "tenant_id": "t_demo",
   "symbol": "BTCUSDT",
   "ref": "rebate_01",
-  "kind": "rebate",
-  "amount": 0.1,
-  "currency": "USDT"
+  "realized_pnl": 0.1,
+  "fees": 0.0
 }
