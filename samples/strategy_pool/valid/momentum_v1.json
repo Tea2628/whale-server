@@ -1,0 +1,1 @@
+{"strategy_id":"sp_momo_v1","name":"Momentum V1","version":"1.0.0","klass":"A","status":"active","tags":["momo","intraday"],"entry_rules":{"ma_fast":9,"ma_slow":21},"exit_rules":{"tp_bps":80,"sl_bps":40},"params":{"symbols":["BTCUSDT","ETHUSDT"],"cooldown_s":60},"risk_profile":{"max_dd":0.08,"daily_loss_cap":0.02},"created_ts":1761247000,"updated_ts":1761247000}

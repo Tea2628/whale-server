@@ -1,0 +1,1 @@
+{"strategy_id":"sp_meanrev_canary","name":"MeanRev Canary","version":"0.9.0","klass":"B","status":"canary","params":{"symbols":["SOLUSDT"]},"created_ts":1761247001,"updated_ts":1761247001}

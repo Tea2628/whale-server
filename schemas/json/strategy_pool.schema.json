@@ -1,0 +1,21 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"strategy_pool",
+  "type":"object",
+  "required":["strategy_id","name","version","klass","status","created_ts","updated_ts","params"],
+  "properties":{
+    "strategy_id":{"type":"string","minLength":1},
+    "name":{"type":"string","minLength":1},
+    "version":{"type":"string","minLength":1},
+    "klass":{"type":"string","enum":["A","B","C"]},
+    "status":{"type":"string","enum":["draft","shadow","canary","active","paused","retired"]},
+    "tags":{"type":"array","items":{"type":"string"}},
+    "entry_rules":{"type":["object","null"],"additionalProperties":true},
+    "exit_rules":{"type":["object","null"],"additionalProperties":true},
+    "params":{"type":"object","additionalProperties":true},
+    "risk_profile":{"type":["object","null"],"additionalProperties":true},
+    "created_ts":{"type":"integer","minimum":0},
+    "updated_ts":{"type":"integer","minimum":0}
+  },
+  "additionalProperties":false
+}
