@@ -1,0 +1,37 @@
+{
+  "date": "20251023",
+  "files": [
+    {
+      "path": "ledger/signals/dt=20251023/symbol=BTCUSDT/17.jsonl",
+      "sha256": "70cd5b71c7a2cc164a8dbf5a06e899aa00f3f9660a8f4c02cd73bc9944c4386b",
+      "record_cnt": 1
+    },
+    {
+      "path": "ledger/policy_change/dt=20251023/17.jsonl",
+      "sha256": "c551f39fa1cdc9073ed92064a94013a5f7a98a09fe7ba6ae598924240051699a",
+      "record_cnt": 1
+    },
+    {
+      "path": "ledger/delayed_reward_ledger/dt=20251023/symbol=BTCUSDT/17.jsonl",
+      "sha256": "bb6d389ef186891d0c926e3cb10e6187171610af3e6e3a107c76328596786e16",
+      "record_cnt": 1
+    },
+    {
+      "path": "ledger/gate/dt=20251023/symbol=BTCUSDT/17.jsonl",
+      "sha256": "cb29fd380c15c16b1d49a871273a39dfcc66102b4361584df40a6be0c4b6e2e5",
+      "record_cnt": 1
+    },
+    {
+      "path": "ledger/market_tick/dt=20251023/symbol=BTCUSDT/17.jsonl",
+      "sha256": "59cd8b85f227d6cefbd45ceecccdaede29302c0adb19e14615d59f1470592d23",
+      "record_cnt": 1
+    },
+    {
+      "path": "ledger/features/dt=20251023/symbol=BTCUSDT/17.jsonl",
+      "sha256": "cd877917bf008fb646fe1a5bb34b1b454974a399233c301b59b3286a32ed6424",
+      "record_cnt": 1
+    }
+  ],
+  "total_files": 6,
+  "generated_ts": 1761242426303
+}

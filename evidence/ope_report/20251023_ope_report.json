@@ -1,0 +1,19 @@
+{
+  "date": "20251023",
+  "source_manifest": "manifest/dt=20251023/manifest.json",
+  "coverage": {
+    "signals": 1,
+    "gate_total": 1,
+    "gate_accept": 1,
+    "gate_abstain": 0,
+    "gate_reject": 0
+  },
+  "metrics": {
+    "expected_pnl_avg": "n/a",
+    "expected_pnl_ci95": [
+      "n/a",
+      "n/a"
+    ]
+  },
+  "notes": "minimal OPE over expected_pnl only"
+}

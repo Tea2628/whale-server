@@ -1,3 +1,3 @@
 policy:
   conf_abstain: 0.0
-  conf_accept: 0.6
+  conf_accept: 0.55

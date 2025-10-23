@@ -16,5 +16,17 @@
     "abstains": 0,
     "rejects": 0,
     "latency_p95_ms_overall": "n/a"
+  },
+  "quality_gate_verdict": {
+    "date": "20251023",
+    "verdict": "pass",
+    "reasons": []
+  },
+  "quality_gate_tuned": {
+    "date": "20251023",
+    "verdict": "pass",
+    "conf_accept_before": 0.6,
+    "conf_accept_after": 0.55,
+    "changed": true
   }
 }

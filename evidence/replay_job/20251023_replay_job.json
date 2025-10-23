@@ -1,0 +1,11 @@
+{
+  "job_id": "rj_4a194477",
+  "dt": "20251023",
+  "symbols": [
+    "BTCUSDT"
+  ],
+  "source_manifest": "manifest/dt=20251023/manifest.json",
+  "created_ts": 1761242256120,
+  "status": "done",
+  "finished_ts": 1761242344727
+}
