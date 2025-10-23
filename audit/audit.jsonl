@@ -996,3 +996,10 @@
 {"ts": 1761260391, "event": "order_flow", "actor": "system", "ref": "e9a07f99045990dd", "meta": {"strategy_id": "sp_momo_v1", "status": "active", "klass": "A", "symbol": "BTCUSDT", "side": "buy", "confidence": 0.72, "order_request_id": "req_1761260391"}}
 {"ts": 1761260391, "event": "risk_guard", "actor": "system", "ref": "a400533f9a5e2834", "meta": {"request_id": "req_1761260391", "symbol": "BTCUSDT", "qty": 0.03, "risk_budget": 0.05, "decision": "resize", "final_qty": 0.02, "reasons": ["resize_max_qty=0.02"]}}
 {"ts": 1761260391, "event": "budget_update", "actor": "system", "ref": "43c455181b52a081", "meta": {"source": "risk_guard", "decision": "resize", "qty": 0.02, "new_budget_used": 0.0002}}
+{"ts": 1761260436, "event": "auth_check", "actor": "system", "ref": "1d773299fa07d299", "meta": {"tenant": "t_demo", "ok": true}}
+{"ts": 1761260436, "event": "quota_guard", "actor": "system", "ref": "9b879635a14041b3", "meta": {"tenant": "t_demo", "day": "20251023", "used": 1, "quota": 200, "decision": "allow"}}
+{"ts": 1761260436, "event": "order_flow", "actor": "system", "ref": "1e2d2c7984130f4f", "meta": {"strategy_id": "sp_momo_v1", "status": "active", "klass": "A", "symbol": "BTCUSDT", "side": "buy", "confidence": 0.8, "order_request_id": "req_1761260436"}}
+{"ts": 1761260436, "event": "risk_guard", "actor": "system", "ref": "8a98f28a1d0dda42", "meta": {"request_id": "req_1761260436", "symbol": "BTCUSDT", "qty": 0.015, "risk_budget": 0.05, "decision": "allow", "final_qty": null, "reasons": []}}
+{"ts": 1761260436, "event": "budget_update", "actor": "system", "ref": "cc47418469730023", "meta": {"source": "risk_guard", "decision": "allow", "qty": 0.015, "new_budget_used": 0.00035}}
+{"ts": 1761260436, "event": "billing_event", "actor": "system", "ref": "ce15e9884795c98d", "meta": {"tenant_id": "t_demo", "ts": 1761260436, "event_type": "usage", "amount": 1.0, "currency": "USDT", "ref": "sig_usage"}}
+{"ts": 1761260436, "event": "exec_router_stub", "actor": "system", "ref": "83d0119f7d078e22", "meta": {"request_id": "", "signal_id": "", "status": "accepted"}}
