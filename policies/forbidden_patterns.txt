@@ -1,0 +1,13 @@
+# === Secrets ===
+AKIA[0-9A-Z]{16}                       # AWS Access Key (示例)
+(?i)secret(_?key)?\s*[:=]\s*[A-Za-z0-9/_\-+]{16,}
+(?i)api[_-]?key\s*[:=]\s*[A-Za-z0-9]{20,}
+-----BEGIN (EC|RSA|OPENSSH) PRIVATE KEY-----   # 私钥
+
+# === Tokens / URLs ===
+(?i)bearer\s+[A-Za-z0-9\.\-_]{20,}
+https?://[^\s]+[?&](token|apikey|signature)=[A-Za-z0-9\-_]{8,}
+
+# === PII (轻度示例，避免过度误报) ===
+\b\d{3}-\d{2}-\d{4}\b                 # US SSN 简例
+\b\d{11}\b                             # 可能的手机号/身份证片段（演示）

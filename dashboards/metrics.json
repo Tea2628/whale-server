@@ -19,5 +19,7 @@
   "consistency_score_overall": 88.0,
   "rag_docs_total": 2,
   "rag_last_build_ts": 1761261119,
-  "rag_citation_pass_total": 1
+  "rag_citation_pass_total": 1,
+  "redline_pass_total": 1,
+  "redline_block_total": 1
 }

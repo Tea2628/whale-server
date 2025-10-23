@@ -1009,3 +1009,5 @@
 {"ts": 1761261059, "event": "consistency_score", "actor": "system", "ref": "F-stage-MVP", "meta": {"score": 88.0, "contract_validity": 100.0, "evidence_coverage": 100.0, "kpi_non_regression": 60.0, "drift_check": 60.0, "risk_budget_integrity": 100.0, "reproducibility": 100.0, "registry_entries": 25, "evidence_coverage_ratio": 1.0}}
 {"ts": 1761261119, "event": "rag_index_build", "actor": "system", "ref": "F-stage", "meta": {"docs": 2}}
 {"ts": 1761261119, "event": "citation_gate", "actor": "system", "ref": "cf2bd59235052fa4", "meta": {"ok": true, "failed": [], "citations": [{"path": "knowledge/policies.md", "quote": "P0 不落盘"}]}}
+{"ts": 1761261167, "event": "forbidden_gate", "actor": "system", "ref": "0bb0786542464739", "meta": {"ok": true, "hits": 0, "samples": []}}
+{"ts": 1761261167, "event": "forbidden_gate", "actor": "system", "ref": "e53842bf2701c03b", "meta": {"ok": false, "hits": 1, "samples": ["bearer ABCDEFGHIJKLMNOPQRST-12345"]}}
