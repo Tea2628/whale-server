@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"quota_policy",
+  "type":"object",
+  "required":["tenant_id","daily_signal_quota","monthly_compute_tokens","rate_limit_rps","burst","effective_from"],
+  "properties":{
+    "tenant_id":{"type":"string"},
+    "daily_signal_quota":{"type":"integer","minimum":0},
+    "monthly_compute_tokens":{"type":"integer","minimum":0},
+    "rate_limit_rps":{"type":"number","minimum":0},
+    "burst":{"type":"integer","minimum":0},
+    "effective_from":{"type":"integer","minimum":0},
+    "effective_to":{"type":["integer","null"],"minimum":0}
+  },
+  "additionalProperties":false
+}

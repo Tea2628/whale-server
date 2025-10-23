@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"billing_event",
+  "type":"object",
+  "required":["tenant_id","ts","event_type","amount","currency","ref"],
+  "properties":{
+    "tenant_id":{"type":"string"},
+    "ts":{"type":"integer","minimum":0},
+    "event_type":{"type":"string","enum":["plan_change","usage","payment","refund","adjustment"]},
+    "amount":{"type":"number"},
+    "currency":{"type":"string","minLength":3,"maxLength":10},
+    "ref":{"type":"string"},
+    "meta":{"type":["object","null"],"additionalProperties":true}
+  },
+  "additionalProperties":false
+}

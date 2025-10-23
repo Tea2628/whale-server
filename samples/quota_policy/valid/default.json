@@ -1,0 +1,1 @@
+{"tenant_id":"t_demo","daily_signal_quota":200,"monthly_compute_tokens":2000000,"rate_limit_rps":5,"burst":20,"effective_from":1761247000}
