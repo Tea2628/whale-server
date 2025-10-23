@@ -9,5 +9,12 @@
   "replay_jobs_running": 0,
   "scl_schema_total": 25,
   "scl_coverage_ratio": 0.96,
-  "scl_last_build_ts": 1761260157
+  "scl_last_build_ts": 1761260157,
+  "whale_policy_reload_latency_ms": 120,
+  "whale_auto_promote_total": 0,
+  "whale_auto_rollback_total": 1,
+  "whale_replay_jobs_running": 0,
+  "whale_rollback_latency_ms": 0,
+  "whale_drift_alerts_total": 0,
+  "consistency_score_overall": 88.0
 }

@@ -1003,3 +1003,7 @@
 {"ts": 1761260436, "event": "budget_update", "actor": "system", "ref": "cc47418469730023", "meta": {"source": "risk_guard", "decision": "allow", "qty": 0.015, "new_budget_used": 0.00035}}
 {"ts": 1761260436, "event": "billing_event", "actor": "system", "ref": "ce15e9884795c98d", "meta": {"tenant_id": "t_demo", "ts": 1761260436, "event_type": "usage", "amount": 1.0, "currency": "USDT", "ref": "sig_usage"}}
 {"ts": 1761260436, "event": "exec_router_stub", "actor": "system", "ref": "83d0119f7d078e22", "meta": {"request_id": "", "signal_id": "", "status": "accepted"}}
+{"ts": 1761260858, "event": "registry_update", "actor": "system", "ref": "manual_fix", "meta": {"note": "add B-metrics once"}}
+{"ts": 1761260909, "event": "replay_consistency", "actor": "system", "ref": "manual_fix", "meta": {"runs": 1, "ok": true}}
+{"ts": 1761260909, "event": "dataset_manifest_validate", "actor": "system", "ref": "manual_fix", "meta": {"valid": true}}
+{"ts": 1761261059, "event": "consistency_score", "actor": "system", "ref": "F-stage-MVP", "meta": {"score": 88.0, "contract_validity": 100.0, "evidence_coverage": 100.0, "kpi_non_regression": 60.0, "drift_check": 60.0, "risk_budget_integrity": 100.0, "reproducibility": 100.0, "registry_entries": 25, "evidence_coverage_ratio": 1.0}}

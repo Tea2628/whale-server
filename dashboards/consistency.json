@@ -1,0 +1,24 @@
+{
+  "ts": 1761261059,
+  "weights": {
+    "contract_validity": 30,
+    "evidence_coverage": 20,
+    "kpi_non_regression": 20,
+    "drift_check": 10,
+    "risk_budget_integrity": 10,
+    "reproducibility": 10
+  },
+  "components": {
+    "contract_validity": 100.0,
+    "evidence_coverage": 100.0,
+    "kpi_non_regression": 60.0,
+    "drift_check": 60.0,
+    "risk_budget_integrity": 100.0,
+    "reproducibility": 100.0
+  },
+  "evidence": {
+    "registry_entries": 25,
+    "evidence_coverage_ratio": 1.0
+  },
+  "score": 88.0
+}
