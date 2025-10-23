@@ -21,5 +21,7 @@
   "rag_last_build_ts": 1761261119,
   "rag_citation_pass_total": 1,
   "redline_pass_total": 1,
-  "redline_block_total": 1
+  "redline_block_total": 1,
+  "baseline_drift_files_total": 0,
+  "baseline_ok": 1
 }

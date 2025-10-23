@@ -1011,3 +1011,5 @@
 {"ts": 1761261119, "event": "citation_gate", "actor": "system", "ref": "cf2bd59235052fa4", "meta": {"ok": true, "failed": [], "citations": [{"path": "knowledge/policies.md", "quote": "P0 不落盘"}]}}
 {"ts": 1761261167, "event": "forbidden_gate", "actor": "system", "ref": "0bb0786542464739", "meta": {"ok": true, "hits": 0, "samples": []}}
 {"ts": 1761261167, "event": "forbidden_gate", "actor": "system", "ref": "e53842bf2701c03b", "meta": {"ok": false, "hits": 1, "samples": ["bearer ABCDEFGHIJKLMNOPQRST-12345"]}}
+{"ts": 1761261254, "event": "baseline_snapshot", "actor": "system", "ref": "20bfacc08f9853c6", "meta": {"path": "evidence/baseline/GOLDEN.json", "files": 39, "golden": true}}
+{"ts": 1761261254, "event": "baseline_drift", "actor": "system", "ref": "255366449d3ea47d", "meta": {"golden": true, "drift_total": 0, "drift": []}}

@@ -1,0 +1,200 @@
+{
+  "ts": 1761261254,
+  "files": [
+    {
+      "path": "ops/controllers/capacity_controller.py",
+      "sha256": "17555992a364c0cc7e465fe040d9403ec41571accbde4f3e9fd652c5ea916d91",
+      "size": 1256
+    },
+    {
+      "path": "ops/controllers/healing_controller.py",
+      "sha256": "5ca932bb81e33c7bac68c4d2af725358253c9484005b2d46247a00e53bb66284",
+      "size": 1636
+    },
+    {
+      "path": "ops/gate/ops_gate_preflight.sh",
+      "sha256": "f567d88510a33207127c7a3c9d375d0929191b16852a0784cd79fb94b8806a1e",
+      "size": 1143
+    },
+    {
+      "path": "policies/forbidden_patterns.txt",
+      "sha256": "c3a74a506fe8b54a1664b6c3b75ebe34ae82a2ce0fca09267ed974ac9c3926c8",
+      "size": 547
+    },
+    {
+      "path": "policies/gate_policy.yaml",
+      "sha256": "f2525dae1592a526070d7dfe2e9c91ae3056a8d1ad2f407271458cae6293fead",
+      "size": 47
+    },
+    {
+      "path": "schemas/json/audit.schema.json",
+      "sha256": "ccddeccdad6e6d844196cda1a6c3f40563762023e9dd1108c8f6225eb8aa76f0",
+      "size": 540
+    },
+    {
+      "path": "schemas/json/billing_event.schema.json",
+      "sha256": "5eaf6148e7280b2a3b18b964b78ddd3ddb4007926a80a18d0f3364e12c55af1b",
+      "size": 595
+    },
+    {
+      "path": "schemas/json/bucket_kpi.schema.json",
+      "sha256": "2fc7ff8dd39268ba1c4463d1d18974fb4fc420c749d97bf17723311ca8b98d2d",
+      "size": 1545
+    },
+    {
+      "path": "schemas/json/budget_state.schema.json",
+      "sha256": "c092a9b449f9c8c0318f3802e1c036bae4110a3ba3e7cde5948751e9eecac5b1",
+      "size": 555
+    },
+    {
+      "path": "schemas/json/dataset_manifest.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "size": 126
+    },
+    {
+      "path": "schemas/json/delayed_reward_ledger.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "size": 126
+    },
+    {
+      "path": "schemas/json/execution_report.schema.json",
+      "sha256": "868cb744d3e459637c28c01b90b1029dd949ef15f3cb7226e24db0fe8bc95771",
+      "size": 739
+    },
+    {
+      "path": "schemas/json/experiment.schema.json",
+      "sha256": "f1b20849fe1d29c3591673e184c4473e3fd7dccb96d23de749737a576c9a5942",
+      "size": 623
+    },
+    {
+      "path": "schemas/json/features.schema.json",
+      "sha256": "27d41156f31186eb4dd1b9d1c84760d65f5a80c4c71ce15424b69a868616d14e",
+      "size": 516
+    },
+    {
+      "path": "schemas/json/gateway_attempt.schema.json",
+      "sha256": "a62d826bc4a34c476bb1a188210f2b817d5f9d32fba697b6f60b522d18e70582",
+      "size": 502
+    },
+    {
+      "path": "schemas/json/gpt_suggestion.schema.json",
+      "sha256": "b590681dfe6708d53a4327932784ecc19740c7a8faf2bdaa2684d049857a1283",
+      "size": 1161
+    },
+    {
+      "path": "schemas/json/ope_report.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "size": 126
+    },
+    {
+      "path": "schemas/json/order_request.schema.json",
+      "sha256": "85c40b73d428aa7cfbb7d88382b3380f8404258f6d6c1213d84cff5acae19809",
+      "size": 941
+    },
+    {
+      "path": "schemas/json/pnl_ledger.schema.json",
+      "sha256": "63882854087d952c8f141f417e255effae299f13518c6c1ae532fa6e637ed6f0",
+      "size": 499
+    },
+    {
+      "path": "schemas/json/position_state.schema.json",
+      "sha256": "61dcf05fcfb2f3f333b904f63dfd900e8b60ab552e0e841d5a045600841279ae",
+      "size": 586
+    },
+    {
+      "path": "schemas/json/quality_card.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "size": 126
+    },
+    {
+      "path": "schemas/json/quota_policy.schema.json",
+      "sha256": "103ee5516dc8b13e8eebd93c8e8ec1a03500fec01336ebf73eea59d3ed541e73",
+      "size": 634
+    },
+    {
+      "path": "schemas/json/registry.schema.json",
+      "sha256": "6d54193e0e52c6ef92880b91d6178785a740bf27ee75f76839f6877e7b2a7fe0",
+      "size": 1405
+    },
+    {
+      "path": "schemas/json/replay_job.schema.json",
+      "sha256": "83555fac731558191138b5f8ed081deaece228a20716817fbdc4ea4216313ff4",
+      "size": 126
+    },
+    {
+      "path": "schemas/json/risk_guard_decision.schema.json",
+      "sha256": "75574a6fe0178b8cfa785cdb4502177407717ee867d5b4f11ffcaab32dc05e0a",
+      "size": 533
+    },
+    {
+      "path": "schemas/json/schema_registry.schema.json",
+      "sha256": "43ee286e217e092a1fe082f3f188c80b7d149a21bd9f88fad352d4492bd34686",
+      "size": 546
+    },
+    {
+      "path": "schemas/json/signal.schema.json",
+      "sha256": "7f2adf42f2cd8209f99bc0f2ab3be914fec4f7e99b27f1ee208e99f85ca9d7d6",
+      "size": 865
+    },
+    {
+      "path": "schemas/json/strategy_pool.schema.json",
+      "sha256": "66e3fdb1cb956bc275f027e2069de04a1b1529ca3ba964ea1ce073b20fc1df12",
+      "size": 980
+    },
+    {
+      "path": "schemas/json/template.schema.json",
+      "sha256": "8403d681755d6e6a373bfec6582ea7fe53825b53e584adb267fa6698bdc951e1",
+      "size": 1903
+    },
+    {
+      "path": "schemas/json/tenant.schema.json",
+      "sha256": "44638d4f59a2707ee4f166615100695b5c60f89c37aebf038fc9ffb246b2b76a",
+      "size": 562
+    },
+    {
+      "path": "scripts/citation_gate.py",
+      "sha256": "f2c0f55061c73cae793b1cb69e7d527f5468dee7d81bd95f642f52116783b4d4",
+      "size": 1939
+    },
+    {
+      "path": "scripts/consistency_score.py",
+      "sha256": "327136ec52a55e808c8087cab1def6e80c87d84b39cea1671d8a7eb92c3c67b5",
+      "size": 4970
+    },
+    {
+      "path": "scripts/forbidden_gate.py",
+      "sha256": "157c200c5d44ffe26fb8a97390653bd459dc6d2714c3b01c3427ad947201aa33",
+      "size": 2204
+    },
+    {
+      "path": "scripts/gate_policy_wrapper.py",
+      "sha256": "f6ac2991e93e1c6508a1664bfc95b32e87532c7e1d540661f761a677d4e584f7",
+      "size": 2067
+    },
+    {
+      "path": "scripts/manifest_make.py",
+      "sha256": "9a1439bc9ef6b830356a6e62efd79498d7b5901871502bcb10527ec4e243f7be",
+      "size": 1671
+    },
+    {
+      "path": "scripts/metrics_kpi.py",
+      "sha256": "02446e3c903fc7ff103bef8ceb916cbf1d90432ab585ddad855bce2e059aae0a",
+      "size": 3000
+    },
+    {
+      "path": "scripts/policy_reload_probe.py",
+      "sha256": "c5eee1f89297200deb0fc9d1c7c41c35481f682dc185150e36d427a2edc05d46",
+      "size": 2038
+    },
+    {
+      "path": "scripts/rag_index_build.py",
+      "sha256": "9723a16bf6470a97d095227271764a9a0bab781a519e78d67cfb668b38550696",
+      "size": 1695
+    },
+    {
+      "path": "scripts/replay_harness_min.py",
+      "sha256": "45594244afa0b82ee3ab618f6b192ae07d8c71daa1ee6b334d394aeeed51cbbb",
+      "size": 5093
+    }
+  ]
+}
