@@ -4,6 +4,6 @@
   "symbol": "BTCUSDT",
   "ref": "rebate_01",
   "kind": "rebate",
-  "amount": 0.1,                     // 返佣为正值，满足 minimum: 0
+  "amount": 0.1,
   "currency": "USDT"
 }

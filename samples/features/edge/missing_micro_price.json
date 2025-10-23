@@ -2,7 +2,7 @@
   "ts": 1761000000,
   "symbol": "BTCUSDT",
   "mid_price": 68000.0,
-  "micro_price": 68000.01,          // 补齐必填字段（极小差值模拟“微价”）
+  "micro_price": 68000.01,
   "liquidity": "normal",
   "vol_1m": 12.34
 }
