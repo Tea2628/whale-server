@@ -35,3 +35,4 @@ ledger/*/dt=*/hour=*/
 # 备份/临时脚本
 backup_*/
 scripts/*.bak*
+evidence/budget_state.json
