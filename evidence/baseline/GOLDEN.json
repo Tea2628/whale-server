@@ -1,15 +1,15 @@
 {
-  "ts": 1761261254,
+  "ts": 1761264730,
   "files": [
     {
       "path": "ops/controllers/capacity_controller.py",
-      "sha256": "17555992a364c0cc7e465fe040d9403ec41571accbde4f3e9fd652c5ea916d91",
-      "size": 1256
+      "sha256": "b8db70596393b9564c2d6b7cf87c9386e4a9d9f4a02509aea19c95ed489c371d",
+      "size": 3756
     },
     {
       "path": "ops/controllers/healing_controller.py",
-      "sha256": "5ca932bb81e33c7bac68c4d2af725358253c9484005b2d46247a00e53bb66284",
-      "size": 1636
+      "sha256": "432ca52654d01407fdd780da3199b0629d87b47a5c47139aad79d77bf6e6d3d8",
+      "size": 2299
     },
     {
       "path": "ops/gate/ops_gate_preflight.sh",
@@ -115,6 +115,11 @@
       "path": "schemas/json/registry.schema.json",
       "sha256": "6d54193e0e52c6ef92880b91d6178785a740bf27ee75f76839f6877e7b2a7fe0",
       "size": 1405
+    },
+    {
+      "path": "schemas/json/release_gate_report.schema.json",
+      "sha256": "4bed19e2b09cf0085dbf04b0063bad358ddd86eb1f66e3b5ef81215b959d8dcc",
+      "size": 1103
     },
     {
       "path": "schemas/json/replay_job.schema.json",

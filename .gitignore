@@ -1,3 +1,10 @@
 .DS_Store
 __pycache__/
 *.log
+.venv/
+logs/*.log
+evidence/baseline/SNAPSHOT_*
+evidence/schema_registry/*REGISTRY*.jsonl
+evidence/knowledge_index.jsonl
+tmp_sig*
+*.pyc

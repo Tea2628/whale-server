@@ -1,4 +1,17 @@
 #!/usr/bin/env python3
+
+# === freeze guard injected ===
+import os, pathlib, time, json, hashlib
+ROOT=pathlib.Path(__file__).resolve().parents[2]
+FREEZE=ROOT/"ops"/"freeze_window.on"
+AUDIT=ROOT/"audit"/"audit.jsonl"
+if FREEZE.exists() and os.environ.get("OPS_SELF_HEAL","0")!="1":
+    meta={"component":"healing","decision":"reject","reasons":["freeze_window"]}
+    rec={"ts":int(time.time()),"event":"ops_change","actor":"system","ref":hashlib.sha256(json.dumps(meta,sort_keys=True).encode()).hexdigest()[:16],"meta":meta}
+    AUDIT.parent.mkdir(parents=True, exist_ok=True)
+    AUDIT.open("a").write(json.dumps(rec,ensure_ascii=False)+"\n")
+    raise SystemExit(0)
+# === end guard ===
 import json, time, hashlib, pathlib
 
 METRICS = "dashboards/metrics.json"

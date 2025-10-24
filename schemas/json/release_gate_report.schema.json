@@ -1,0 +1,33 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"release_gate_report",
+  "type":"object",
+  "required":["ts","version","channel","decision","gates","metrics","artifacts"],
+  "properties":{
+    "ts":{"type":"integer","minimum":0},
+    "version":{"type":"string"},
+    "channel":{"type":"string","enum":["alpha","beta","stable","lts"]},
+    "decision":{"type":"string","enum":["pass","reject"]},
+    "gates":{
+      "type":"object",
+      "properties":{
+        "contract":{"type":"string","enum":["pass","reject"]},
+        "consistency":{"type":"string","enum":["pass","reject"]},
+        "redlines":{"type":"string","enum":["pass","reject"]}
+      },
+      "required":["contract","consistency","redlines"]
+    },
+    "reasons":{"type":"array","items":{"type":"string"}},
+    "metrics":{"type":"object"},
+    "artifacts":{
+      "type":"object",
+      "properties":{
+        "registry_index":{"type":"string"},
+        "consistency_json":{"type":"string"},
+        "metrics_json":{"type":"string"}
+      },
+      "required":["metrics_json"]
+    }
+  },
+  "additionalProperties":true
+}
