@@ -8,3 +8,30 @@ evidence/schema_registry/*REGISTRY*.jsonl
 evidence/knowledge_index.jsonl
 tmp_sig*
 *.pyc
+
+# --- runtime & derived artifacts ---
+# runtime state
+ops/runtime_state.json
+ops/freeze_window.on
+
+# dashboards are source-of-truth, but LATEST-like links under evidence are derived
+evidence/**/LATEST.json
+evidence/**/LATEST_INDEX.json
+
+# gate reports are artifacts;我们只保留按日期归档的 *.json，LATEST.json 不追踪
+evidence/gate_report/LATEST.json
+
+# knowledge / registry 索引产物
+evidence/knowledge_index.jsonl
+evidence/KNOWLEDGE_LATEST.json
+evidence/schema_registry/*.jsonl
+
+# baseline 快照（GOLDEN 追踪，SNAPSHOT 忽略）
+evidence/baseline/SNAPSHOT_*.json
+
+# 运行时账本/回放临时件（示例：每小时分区）
+ledger/*/dt=*/hour=*/
+
+# 备份/临时脚本
+backup_*/
+scripts/*.bak*

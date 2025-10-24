@@ -1,0 +1,1 @@
+{"ts": 1761000000, "kind": "schema", "name": "audit", "path": "schemas/json/audit.schema.json", "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "version": "v1", "samples": ["samples/audit/valid/one.json"]}

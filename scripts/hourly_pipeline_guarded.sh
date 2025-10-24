@@ -24,3 +24,9 @@ for i in $(seq 1 "$PAR"); do
 done
 wait
 echo "[guarded] done"
+
+# ==== F-stage tail marker ====
+# 可选观测：一致性评分 + 基线对比（失败不影响主流程）
+if [ -x "$(dirname "$0")/f_stage_tail.sh" ]; then
+  "$(dirname "$0")/f_stage_tail.sh" >>"$(cd "$(dirname "$0")/.." && pwd)/logs/cron_hourly.log" 2>&1 || true
+fi

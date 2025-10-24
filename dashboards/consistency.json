@@ -1,5 +1,5 @@
 {
-  "ts": 1761261059,
+  "ts": 1761264459,
   "weights": {
     "contract_validity": 30,
     "evidence_coverage": 20,
@@ -17,7 +17,7 @@
     "reproducibility": 100.0
   },
   "evidence": {
-    "registry_entries": 25,
+    "registry_entries": 26,
     "evidence_coverage_ratio": 1.0
   },
   "score": 88.0
